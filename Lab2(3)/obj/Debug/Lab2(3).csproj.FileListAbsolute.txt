@@ -1,0 +1,7 @@
+D:\3-й курс\2-й семестр\Комп'ютерні системи\Lab2(3)\bin\Debug\Lab2(3).exe.config
+D:\3-й курс\2-й семестр\Комп'ютерні системи\Lab2(3)\bin\Debug\Lab2(3).exe
+D:\3-й курс\2-й семестр\Комп'ютерні системи\Lab2(3)\bin\Debug\Lab2(3).pdb
+D:\3-й курс\2-й семестр\Комп'ютерні системи\Lab2(3)\obj\Debug\Lab2(3).csprojAssemblyReference.cache
+D:\3-й курс\2-й семестр\Комп'ютерні системи\Lab2(3)\obj\Debug\Lab2(3).csproj.CoreCompileInputs.cache
+D:\3-й курс\2-й семестр\Комп'ютерні системи\Lab2(3)\obj\Debug\Lab2(3).exe
+D:\3-й курс\2-й семестр\Комп'ютерні системи\Lab2(3)\obj\Debug\Lab2(3).pdb

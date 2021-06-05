@@ -1,0 +1,2 @@
+D:\3year\2semester\Комп'ютерні системи\Lab3\CPPProj\Floyd-Warshall\Debug\Floyd-Warshall.exe
+D:\3year\2semester\CS\Lab3\CPPProj\Floyd-Warshall\Debug\Floyd-Warshall.exe

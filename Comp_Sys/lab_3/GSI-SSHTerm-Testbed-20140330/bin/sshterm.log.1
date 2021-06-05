@@ -1,0 +1,838 @@
+23:17:23,000 [Transport protocol 2] INFO  com.sshtools.sshterm.SshTerminalPanel - The connection has disconnected cleaning up
+23:17:24,296 [Transport protocol 2] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - The Transport Protocol has been stopped
+23:17:25,468 [AWT-EventQueue-0] INFO  com.sshtools.common.ui.PreferencesStore - Preferences written to C:\.sshterm\GSI-SSHTerm.properties
+23:20:22,140 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.7.0_25
+23:20:22,156 [main] INFO  com.sshtools.j2ssh.transport.cipher.SshCipherFactory - Loading supported cipher algorithms
+23:20:22,156 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshPrivateKeyFormatFactory - Loading private key formats
+23:20:22,171 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.7.0_25
+23:20:22,171 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshPublicKeyFormatFactory - Loading public key formats
+23:20:22,171 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.7.0_25
+23:20:22,187 [main] INFO  com.sshtools.j2ssh.transport.compression.SshCompressionFactory - Loading compression methods
+23:20:22,187 [main] INFO  com.sshtools.j2ssh.transport.hmac.SshHmacFactory - Loading message authentication methods
+23:20:22,187 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshKeyPairFactory - Loading public key algorithms
+23:20:22,187 [main] INFO  com.sshtools.j2ssh.transport.kex.SshKeyExchangeFactory - Loading key exchange methods
+23:20:22,296 [main] INFO  com.sshtools.common.configuration.XmlConfigurationContext - automation.xml could not be found: automation.xml (The system cannot find the file specified)
+23:20:22,359 [main] INFO  com.sshtools.common.ui.PreferencesStore - loading default.properties
+23:20:22,375 [main] INFO  com.sshtools.common.ui.PreferencesStore - loaded default.properties
+23:20:22,375 [main] INFO  com.sshtools.common.ui.PreferencesStore - loading user defualts
+23:20:22,375 [main] WARN  com.sshtools.common.ui.PreferencesStore - Could not load user defaults: java.io.FileNotFoundException: \.sshterm\GSI-SSHTerm.settings (The system cannot find the file specified)
+23:20:22,375 [main] INFO  com.sshtools.common.ui.SshToolsApplication - Preferences will be saved to C:\.sshterm
+23:20:22,375 [main] INFO  com.sshtools.common.ui.SshToolsApplication - Setting look and feel Windows (com.sun.java.swing.plaf.windows.WindowsLookAndFeel)
+23:20:22,843 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed Secure Tunneling session provider
+23:20:22,859 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed SFTP Session session provider
+23:20:22,859 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed Terminal Session session provider
+23:20:22,890 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed VNC Session session provider
+23:20:23,000 [main] INFO  com.sshtools.sshterm.SshTermFrame - \Display0 can go full screen
+23:20:24,515 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.authentication.SshAuthenticationClientFactory - Loading supported authentication methods
+23:20:26,281 [GSI-SSHTerm connection 1] INFO  com.sshtools.common.ui.SshToolsApplicationClientPanel - Connecting to grid.org.ua as 
+23:20:26,312 [GSI-SSHTerm connection 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Starting transport protocol
+23:20:26,312 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Registering transport protocol messages with inputstream
+23:20:26,500 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Negotiating protocol version
+23:20:26,500 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Protocol negotiation complete
+23:20:26,515 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Starting key exchange
+23:20:26,515 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.kex.GssGroup1Sha1 - Starting client side key exchange.
+23:20:26,531 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.kex.GssGroup1Sha1 - Generating shared context with server...
+23:20:40,671 [Transport protocol 1] WARN  org.globus.gsi.TrustedCertificates - Certificate C:\.globus\certificates\0a12b607.0 or Signing policy C:\.globus\certificates\0a12b607.signing_policy failed to load. [JGLOBUS-14] Certificate data not found.
+23:20:40,671 [Transport protocol 1] WARN  org.globus.gsi.TrustedCertificates - Certificate C:\.globus\certificates\1f0e8352.0 or Signing policy C:\.globus\certificates\1f0e8352.signing_policy failed to load. [JGLOBUS-14] Certificate data not found.
+23:20:40,687 [Transport protocol 1] WARN  org.globus.gsi.TrustedCertificates - Certificate C:\.globus\certificates\b874affe.0 or Signing policy C:\.globus\certificates\b874affe.signing_policy failed to load. [JGLOBUS-14] Certificate data not found.
+23:20:40,687 [Transport protocol 1] WARN  org.globus.gsi.TrustedCertificates - Certificate C:\.globus\certificates\d0cd0b27.0 or Signing policy C:\.globus\certificates\d0cd0b27.signing_policy failed to load. [JGLOBUS-14] Certificate data not found.
+23:21:05,390 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - The Transport Protocol thread threw an exception
+java.io.IOException: Canceled by user.
+	at com.sshtools.j2ssh.authentication.UserGridCredential.retrieveRemoteProxy(UserGridCredential.java:720)
+	at com.sshtools.j2ssh.authentication.UserGridCredential.getUserCredential(UserGridCredential.java:238)
+	at com.sshtools.j2ssh.transport.kex.GssGroup1Sha1.performClientExchange(GssGroup1Sha1.java:264)
+	at com.sshtools.j2ssh.transport.TransportProtocolClient.performKeyExchange(TransportProtocolClient.java:365)
+	at com.sshtools.j2ssh.transport.TransportProtocolCommon.beginKeyExchange(TransportProtocolCommon.java:782)
+	at com.sshtools.j2ssh.transport.TransportProtocolCommon.onMsgKexInit(TransportProtocolCommon.java:1443)
+	at com.sshtools.j2ssh.transport.TransportProtocolCommon.startBinaryPacketProtocol(TransportProtocolCommon.java:1132)
+	at com.sshtools.j2ssh.transport.TransportProtocolCommon.run(TransportProtocolCommon.java:414)
+	at java.lang.Thread.run(Unknown Source)
+23:21:05,390 [Transport protocol 1] INFO  com.sshtools.sshterm.SshTerminalPanel - The connection has disconnected cleaning up
+23:26:38,562 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - The Transport Protocol has been stopped
+23:26:40,968 [AWT-EventQueue-0] INFO  com.sshtools.common.ui.PreferencesStore - Preferences written to C:\.sshterm\GSI-SSHTerm.properties
+23:29:49,921 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.7.0_25
+23:29:49,937 [main] INFO  com.sshtools.j2ssh.transport.cipher.SshCipherFactory - Loading supported cipher algorithms
+23:29:49,937 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshPrivateKeyFormatFactory - Loading private key formats
+23:29:49,953 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.7.0_25
+23:29:49,953 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshPublicKeyFormatFactory - Loading public key formats
+23:29:49,968 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.7.0_25
+23:29:49,968 [main] INFO  com.sshtools.j2ssh.transport.compression.SshCompressionFactory - Loading compression methods
+23:29:49,968 [main] INFO  com.sshtools.j2ssh.transport.hmac.SshHmacFactory - Loading message authentication methods
+23:29:49,968 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshKeyPairFactory - Loading public key algorithms
+23:29:49,968 [main] INFO  com.sshtools.j2ssh.transport.kex.SshKeyExchangeFactory - Loading key exchange methods
+23:29:50,078 [main] INFO  com.sshtools.common.configuration.XmlConfigurationContext - automation.xml could not be found: automation.xml (The system cannot find the file specified)
+23:29:50,140 [main] INFO  com.sshtools.common.ui.PreferencesStore - loading default.properties
+23:29:50,140 [main] INFO  com.sshtools.common.ui.PreferencesStore - loaded default.properties
+23:29:50,140 [main] INFO  com.sshtools.common.ui.PreferencesStore - loading user defualts
+23:29:50,140 [main] WARN  com.sshtools.common.ui.PreferencesStore - Could not load user defaults: java.io.FileNotFoundException: \.sshterm\GSI-SSHTerm.settings (The system cannot find the file specified)
+23:29:50,140 [main] INFO  com.sshtools.common.ui.SshToolsApplication - Preferences will be saved to C:\.sshterm
+23:29:50,140 [main] INFO  com.sshtools.common.ui.SshToolsApplication - Setting look and feel Windows (com.sun.java.swing.plaf.windows.WindowsLookAndFeel)
+23:29:50,593 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed Secure Tunneling session provider
+23:29:50,609 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed SFTP Session session provider
+23:29:50,625 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed Terminal Session session provider
+23:29:50,640 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed VNC Session session provider
+23:29:50,765 [main] INFO  com.sshtools.sshterm.SshTermFrame - \Display0 can go full screen
+23:29:53,875 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.authentication.SshAuthenticationClientFactory - Loading supported authentication methods
+23:29:59,687 [GSI-SSHTerm connection 1] INFO  com.sshtools.common.ui.SshToolsApplicationClientPanel - Connecting to grid.org.ua as 
+23:29:59,718 [GSI-SSHTerm connection 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Starting transport protocol
+23:29:59,718 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Registering transport protocol messages with inputstream
+23:29:59,828 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Negotiating protocol version
+23:29:59,828 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Protocol negotiation complete
+23:29:59,843 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Starting key exchange
+23:29:59,843 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.kex.GssGroup1Sha1 - Starting client side key exchange.
+23:29:59,859 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.kex.GssGroup1Sha1 - Generating shared context with server...
+23:31:07,828 [Thread-5] INFO  org.glite.voms.contact.VOMSProxyInit - Contacting server [vo=testbed.univ.kiev.ua,host=grid.org.ua,port=15112,hostDN=/DC=org/DC=ugrid/O=hosts/O=KNU/CN=grid.org.ua,globusVersion=null]
+23:31:07,875 [Thread-5] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:31:08,312 [Thread-5] INFO  org.glite.voms.PKIVerifier - Certificate verification: Verifying certificate 'CN=voms.grid.org.ua, O=KNU, O=hosts, DC=ugrid, DC=org'
+23:31:08,359 [Thread-5] ERROR org.glite.voms.contact.VOMSProtocol - XML request serialization error! org.xml.sax.SAXException: Connection reset
+java.net.SocketException: Connection reset
+23:31:08,359 [Thread-5] ERROR org.glite.voms.contact.VOMSProxyInit - XML request serialization error! org.xml.sax.SAXException: Connection reset
+java.net.SocketException: Connection reset
+23:31:37,906 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:32:07,906 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:32:37,906 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:33:07,906 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:33:37,906 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:34:07,906 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:34:37,906 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:35:07,906 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:35:37,906 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:36:07,906 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:36:37,906 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:37:07,906 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:37:37,906 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:38:07,906 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:38:37,906 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:39:07,906 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:39:37,906 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:40:07,906 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:40:37,921 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:41:07,906 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:41:37,906 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:42:07,921 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:42:37,906 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:43:07,906 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:43:37,906 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:44:07,906 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:44:37,921 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:45:01,578 [Thread-7] INFO  org.glite.voms.contact.VOMSProxyInit - Contacting server [vo=testbed.univ.kiev.ua,host=grid.org.ua,port=15112,hostDN=/DC=org/DC=ugrid/O=hosts/O=KNU/CN=grid.org.ua,globusVersion=null]
+23:45:01,593 [Thread-7] INFO  org.glite.voms.PKIVerifier - Certificate verification: Verifying certificate 'CN=voms.grid.org.ua, O=KNU, O=hosts, DC=ugrid, DC=org'
+23:45:01,640 [Thread-7] ERROR org.glite.voms.contact.VOMSProtocol - XML request serialization error! org.xml.sax.SAXException: Connection reset
+java.net.SocketException: Connection reset
+23:45:01,640 [Thread-7] ERROR org.glite.voms.contact.VOMSProxyInit - XML request serialization error! org.xml.sax.SAXException: Connection reset
+java.net.SocketException: Connection reset
+23:45:05,062 [Transport protocol 1] ERROR com.sshtools.j2ssh.transport.TransportProtocolInputStream - Buffer empty... EOFException suppressed
+23:45:05,562 [Transport protocol 1] ERROR com.sshtools.j2ssh.transport.TransportProtocolInputStream - Buffer empty... EOFException suppressed
+23:45:06,062 [Transport protocol 1] ERROR com.sshtools.j2ssh.transport.TransportProtocolInputStream - Buffer empty... EOFException suppressed
+23:45:06,109 [AWT-EventQueue-0] INFO  com.sshtools.sshterm.SshTerminalPanel - The connection has disconnected cleaning up
+23:45:06,187 [AWT-EventQueue-0] INFO  com.sshtools.common.ui.PreferencesStore - Preferences written to C:\.sshterm\GSI-SSHTerm.properties
+23:45:19,328 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.7.0_25
+23:45:19,343 [main] INFO  com.sshtools.j2ssh.transport.cipher.SshCipherFactory - Loading supported cipher algorithms
+23:45:19,343 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshPrivateKeyFormatFactory - Loading private key formats
+23:45:19,359 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.7.0_25
+23:45:19,359 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshPublicKeyFormatFactory - Loading public key formats
+23:45:19,375 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.7.0_25
+23:45:19,375 [main] INFO  com.sshtools.j2ssh.transport.compression.SshCompressionFactory - Loading compression methods
+23:45:19,375 [main] INFO  com.sshtools.j2ssh.transport.hmac.SshHmacFactory - Loading message authentication methods
+23:45:19,375 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshKeyPairFactory - Loading public key algorithms
+23:45:19,375 [main] INFO  com.sshtools.j2ssh.transport.kex.SshKeyExchangeFactory - Loading key exchange methods
+23:45:19,484 [main] INFO  com.sshtools.common.configuration.XmlConfigurationContext - automation.xml could not be found: automation.xml (The system cannot find the file specified)
+23:45:19,546 [main] INFO  com.sshtools.common.ui.PreferencesStore - loading default.properties
+23:45:19,562 [main] INFO  com.sshtools.common.ui.PreferencesStore - loaded default.properties
+23:45:19,562 [main] INFO  com.sshtools.common.ui.PreferencesStore - loading user defualts
+23:45:19,562 [main] WARN  com.sshtools.common.ui.PreferencesStore - Could not load user defaults: java.io.FileNotFoundException: \.sshterm\GSI-SSHTerm.settings (The system cannot find the file specified)
+23:45:19,562 [main] INFO  com.sshtools.common.ui.SshToolsApplication - Preferences will be saved to C:\.sshterm
+23:45:19,562 [main] INFO  com.sshtools.common.ui.SshToolsApplication - Setting look and feel Windows (com.sun.java.swing.plaf.windows.WindowsLookAndFeel)
+23:45:20,031 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed Secure Tunneling session provider
+23:45:20,046 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed SFTP Session session provider
+23:45:20,046 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed Terminal Session session provider
+23:45:20,078 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed VNC Session session provider
+23:45:20,187 [main] INFO  com.sshtools.sshterm.SshTermFrame - \Display0 can go full screen
+23:45:21,421 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.authentication.SshAuthenticationClientFactory - Loading supported authentication methods
+23:45:22,843 [GSI-SSHTerm connection 1] INFO  com.sshtools.common.ui.SshToolsApplicationClientPanel - Connecting to grid.org.ua as 
+23:45:22,875 [GSI-SSHTerm connection 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Starting transport protocol
+23:45:22,875 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Registering transport protocol messages with inputstream
+23:45:23,062 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Negotiating protocol version
+23:45:23,062 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Protocol negotiation complete
+23:45:23,062 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Starting key exchange
+23:45:23,078 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.kex.GssGroup1Sha1 - Starting client side key exchange.
+23:45:23,093 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.kex.GssGroup1Sha1 - Generating shared context with server...
+23:45:38,312 [Thread-5] INFO  org.glite.voms.contact.VOMSProxyInit - Contacting server [vo=testbed.univ.kiev.ua,host=grid.org.ua,port=15112,hostDN=/DC=org/DC=ugrid/O=hosts/O=KNU/CN=grid.org.ua,globusVersion=null]
+23:45:38,359 [Thread-5] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:45:39,500 [Thread-5] INFO  org.glite.voms.PKIVerifier - Certificate verification: Verifying certificate 'CN=voms.grid.org.ua, O=KNU, O=hosts, DC=ugrid, DC=org'
+23:45:39,593 [Thread-5] ERROR org.glite.voms.contact.VOMSProtocol - XML request serialization error! org.xml.sax.SAXException: Connection reset
+java.net.SocketException: Connection reset
+23:45:39,593 [Thread-5] ERROR org.glite.voms.contact.VOMSProxyInit - XML request serialization error! org.xml.sax.SAXException: Connection reset
+java.net.SocketException: Connection reset
+23:45:47,812 [Transport protocol 1] ERROR com.sshtools.j2ssh.transport.kex.GssGroup1Sha1 - GSSAPI Error:
+23:45:47,812 [Transport protocol 1] ERROR com.sshtools.j2ssh.transport.kex.GssGroup1Sha1 - Major status: 655360
+23:45:47,812 [Transport protocol 1] ERROR com.sshtools.j2ssh.transport.kex.GssGroup1Sha1 - Minor status: 16
+23:45:47,812 [Transport protocol 1] ERROR com.sshtools.j2ssh.transport.kex.GssGroup1Sha1 - Message: GSS Major Status: Authentication Failed
+
+GSS Minor Status Error Chain:
+globus_gsi_gssapi: SSLv3 handshake problems
+OpenSSL Error: s3_srvr.c:3291: in library: SSL routines, function SSL3_GET_CLIENT_CERTIFICATE: no certificate returned
+globus_gsi_callback_module: Could not verify credential
+globus_gsi_callback_module: The certificate is not yet valid: Cert with subject: /DC=org/DC=ugrid/O=people/O=KNU/OU=ICC/CN=Oleksandr Sudakov/CN=proxy is not yet valid- check clock skew between hosts.
+
+
+23:45:47,828 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - The Transport Protocol thread threw an exception
+com.sshtools.j2ssh.transport.kex.KeyExchangeException: GSS Error from server
+	at com.sshtools.j2ssh.transport.kex.GssGroup1Sha1.performClientExchange(GssGroup1Sha1.java:403)
+	at com.sshtools.j2ssh.transport.TransportProtocolClient.performKeyExchange(TransportProtocolClient.java:365)
+	at com.sshtools.j2ssh.transport.TransportProtocolCommon.beginKeyExchange(TransportProtocolCommon.java:782)
+	at com.sshtools.j2ssh.transport.TransportProtocolCommon.onMsgKexInit(TransportProtocolCommon.java:1443)
+	at com.sshtools.j2ssh.transport.TransportProtocolCommon.startBinaryPacketProtocol(TransportProtocolCommon.java:1132)
+	at com.sshtools.j2ssh.transport.TransportProtocolCommon.run(TransportProtocolCommon.java:414)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: GSSException: Failure unspecified at GSS-API level (Mechanism level: 
+From Server:
+GSS Major Status: Authentication Failed
+
+GSS Minor Status Error Chain:
+globus_gsi_gssapi: SSLv3 handshake problems
+OpenSSL Error: s3_srvr.c:3291: in library: SSL routines, function SSL3_GET_CLIENT_CERTIFICATE: no certificate returned
+globus_gsi_callback_module: Could not verify credential
+globus_gsi_callback_module: The certificate is not yet valid: Cert with subject: /DC=org/DC=ugrid/O=people/O=KNU/OU=ICC/CN=Oleksandr Sudakov/CN=proxy is not yet valid- check clock skew between hosts.
+
+)
+	at com.sshtools.j2ssh.transport.kex.GssGroup1Sha1.errormsg(GssGroup1Sha1.java:423)
+	at com.sshtools.j2ssh.transport.kex.GssGroup1Sha1.performClientExchange(GssGroup1Sha1.java:353)
+	... 6 more
+23:45:47,828 [Transport protocol 1] ERROR com.sshtools.j2ssh.transport.TransportProtocolCommon - The Transport Protocol thread failed
+com.sshtools.j2ssh.transport.kex.KeyExchangeException: GSS Error from server
+	at com.sshtools.j2ssh.transport.kex.GssGroup1Sha1.performClientExchange(GssGroup1Sha1.java:403)
+	at com.sshtools.j2ssh.transport.TransportProtocolClient.performKeyExchange(TransportProtocolClient.java:365)
+	at com.sshtools.j2ssh.transport.TransportProtocolCommon.beginKeyExchange(TransportProtocolCommon.java:782)
+	at com.sshtools.j2ssh.transport.TransportProtocolCommon.onMsgKexInit(TransportProtocolCommon.java:1443)
+	at com.sshtools.j2ssh.transport.TransportProtocolCommon.startBinaryPacketProtocol(TransportProtocolCommon.java:1132)
+	at com.sshtools.j2ssh.transport.TransportProtocolCommon.run(TransportProtocolCommon.java:414)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: GSSException: Failure unspecified at GSS-API level (Mechanism level: 
+From Server:
+GSS Major Status: Authentication Failed
+
+GSS Minor Status Error Chain:
+globus_gsi_gssapi: SSLv3 handshake problems
+OpenSSL Error: s3_srvr.c:3291: in library: SSL routines, function SSL3_GET_CLIENT_CERTIFICATE: no certificate returned
+globus_gsi_callback_module: Could not verify credential
+globus_gsi_callback_module: The certificate is not yet valid: Cert with subject: /DC=org/DC=ugrid/O=people/O=KNU/OU=ICC/CN=Oleksandr Sudakov/CN=proxy is not yet valid- check clock skew between hosts.
+
+)
+	at com.sshtools.j2ssh.transport.kex.GssGroup1Sha1.errormsg(GssGroup1Sha1.java:423)
+	at com.sshtools.j2ssh.transport.kex.GssGroup1Sha1.performClientExchange(GssGroup1Sha1.java:353)
+	... 6 more
+23:45:47,828 [Transport protocol 1] INFO  com.sshtools.sshterm.SshTerminalPanel - The connection has disconnected cleaning up
+23:45:49,125 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - The Transport Protocol has been stopped
+23:45:50,156 [AWT-EventQueue-0] INFO  com.sshtools.common.ui.PreferencesStore - Preferences written to C:\.sshterm\GSI-SSHTerm.properties
+23:53:09,703 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.7.0_25
+23:53:09,703 [main] INFO  com.sshtools.j2ssh.transport.cipher.SshCipherFactory - Loading supported cipher algorithms
+23:53:09,718 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshPrivateKeyFormatFactory - Loading private key formats
+23:53:09,734 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.7.0_25
+23:53:09,734 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshPublicKeyFormatFactory - Loading public key formats
+23:53:09,734 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.7.0_25
+23:53:09,734 [main] INFO  com.sshtools.j2ssh.transport.compression.SshCompressionFactory - Loading compression methods
+23:53:09,734 [main] INFO  com.sshtools.j2ssh.transport.hmac.SshHmacFactory - Loading message authentication methods
+23:53:09,750 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshKeyPairFactory - Loading public key algorithms
+23:53:09,750 [main] INFO  com.sshtools.j2ssh.transport.kex.SshKeyExchangeFactory - Loading key exchange methods
+23:53:09,859 [main] INFO  com.sshtools.common.configuration.XmlConfigurationContext - automation.xml could not be found: automation.xml (The system cannot find the file specified)
+23:53:09,906 [main] INFO  com.sshtools.common.ui.PreferencesStore - loading default.properties
+23:53:09,921 [main] INFO  com.sshtools.common.ui.PreferencesStore - loaded default.properties
+23:53:09,921 [main] INFO  com.sshtools.common.ui.PreferencesStore - loading user defualts
+23:53:09,921 [main] WARN  com.sshtools.common.ui.PreferencesStore - Could not load user defaults: java.io.FileNotFoundException: \.sshterm\GSI-SSHTerm.settings (The system cannot find the file specified)
+23:53:09,921 [main] INFO  com.sshtools.common.ui.SshToolsApplication - Preferences will be saved to C:\.sshterm
+23:53:09,921 [main] INFO  com.sshtools.common.ui.SshToolsApplication - Setting look and feel Windows (com.sun.java.swing.plaf.windows.WindowsLookAndFeel)
+23:53:10,375 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed Secure Tunneling session provider
+23:53:10,390 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed SFTP Session session provider
+23:53:10,390 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed Terminal Session session provider
+23:53:10,421 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed VNC Session session provider
+23:53:10,531 [main] INFO  com.sshtools.sshterm.SshTermFrame - \Display0 can go full screen
+23:53:12,687 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.authentication.SshAuthenticationClientFactory - Loading supported authentication methods
+23:53:14,453 [GSI-SSHTerm connection 1] INFO  com.sshtools.common.ui.SshToolsApplicationClientPanel - Connecting to grid.org.ua as 
+23:53:14,484 [GSI-SSHTerm connection 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Starting transport protocol
+23:53:14,484 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Registering transport protocol messages with inputstream
+23:53:14,656 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Negotiating protocol version
+23:53:14,656 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Protocol negotiation complete
+23:53:14,671 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Starting key exchange
+23:53:14,671 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.kex.GssGroup1Sha1 - Starting client side key exchange.
+23:53:14,687 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.kex.GssGroup1Sha1 - Generating shared context with server...
+23:53:29,203 [AWT-EventQueue-0] WARN  uk.ac.ngs.escience.gui.vomsproxyinit.VomsProxyInitJPanel - requestedVoFQANs are null or empty
+23:53:29,500 [Transport protocol 1] ERROR com.sshtools.j2ssh.transport.kex.GssGroup1Sha1 - GSSAPI Error:
+23:53:29,500 [Transport protocol 1] ERROR com.sshtools.j2ssh.transport.kex.GssGroup1Sha1 - Major status: 655360
+23:53:29,500 [Transport protocol 1] ERROR com.sshtools.j2ssh.transport.kex.GssGroup1Sha1 - Minor status: 16
+23:53:29,500 [Transport protocol 1] ERROR com.sshtools.j2ssh.transport.kex.GssGroup1Sha1 - Message: GSS Major Status: Authentication Failed
+
+GSS Minor Status Error Chain:
+globus_gsi_gssapi: SSLv3 handshake problems
+OpenSSL Error: s3_srvr.c:3291: in library: SSL routines, function SSL3_GET_CLIENT_CERTIFICATE: no certificate returned
+globus_gsi_callback_module: Could not verify credential
+globus_gsi_callback_module: The certificate is not yet valid: Cert with subject: /DC=org/DC=ugrid/O=people/O=KNU/OU=ICC/CN=Oleksandr Sudakov/CN=proxy is not yet valid- check clock skew between hosts.
+
+
+23:53:29,515 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - The Transport Protocol thread threw an exception
+com.sshtools.j2ssh.transport.kex.KeyExchangeException: GSS Error from server
+	at com.sshtools.j2ssh.transport.kex.GssGroup1Sha1.performClientExchange(GssGroup1Sha1.java:403)
+	at com.sshtools.j2ssh.transport.TransportProtocolClient.performKeyExchange(TransportProtocolClient.java:365)
+	at com.sshtools.j2ssh.transport.TransportProtocolCommon.beginKeyExchange(TransportProtocolCommon.java:782)
+	at com.sshtools.j2ssh.transport.TransportProtocolCommon.onMsgKexInit(TransportProtocolCommon.java:1443)
+	at com.sshtools.j2ssh.transport.TransportProtocolCommon.startBinaryPacketProtocol(TransportProtocolCommon.java:1132)
+	at com.sshtools.j2ssh.transport.TransportProtocolCommon.run(TransportProtocolCommon.java:414)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: GSSException: Failure unspecified at GSS-API level (Mechanism level: 
+From Server:
+GSS Major Status: Authentication Failed
+
+GSS Minor Status Error Chain:
+globus_gsi_gssapi: SSLv3 handshake problems
+OpenSSL Error: s3_srvr.c:3291: in library: SSL routines, function SSL3_GET_CLIENT_CERTIFICATE: no certificate returned
+globus_gsi_callback_module: Could not verify credential
+globus_gsi_callback_module: The certificate is not yet valid: Cert with subject: /DC=org/DC=ugrid/O=people/O=KNU/OU=ICC/CN=Oleksandr Sudakov/CN=proxy is not yet valid- check clock skew between hosts.
+
+)
+	at com.sshtools.j2ssh.transport.kex.GssGroup1Sha1.errormsg(GssGroup1Sha1.java:423)
+	at com.sshtools.j2ssh.transport.kex.GssGroup1Sha1.performClientExchange(GssGroup1Sha1.java:353)
+	... 6 more
+23:53:29,515 [Transport protocol 1] ERROR com.sshtools.j2ssh.transport.TransportProtocolCommon - The Transport Protocol thread failed
+com.sshtools.j2ssh.transport.kex.KeyExchangeException: GSS Error from server
+	at com.sshtools.j2ssh.transport.kex.GssGroup1Sha1.performClientExchange(GssGroup1Sha1.java:403)
+	at com.sshtools.j2ssh.transport.TransportProtocolClient.performKeyExchange(TransportProtocolClient.java:365)
+	at com.sshtools.j2ssh.transport.TransportProtocolCommon.beginKeyExchange(TransportProtocolCommon.java:782)
+	at com.sshtools.j2ssh.transport.TransportProtocolCommon.onMsgKexInit(TransportProtocolCommon.java:1443)
+	at com.sshtools.j2ssh.transport.TransportProtocolCommon.startBinaryPacketProtocol(TransportProtocolCommon.java:1132)
+	at com.sshtools.j2ssh.transport.TransportProtocolCommon.run(TransportProtocolCommon.java:414)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: GSSException: Failure unspecified at GSS-API level (Mechanism level: 
+From Server:
+GSS Major Status: Authentication Failed
+
+GSS Minor Status Error Chain:
+globus_gsi_gssapi: SSLv3 handshake problems
+OpenSSL Error: s3_srvr.c:3291: in library: SSL routines, function SSL3_GET_CLIENT_CERTIFICATE: no certificate returned
+globus_gsi_callback_module: Could not verify credential
+globus_gsi_callback_module: The certificate is not yet valid: Cert with subject: /DC=org/DC=ugrid/O=people/O=KNU/OU=ICC/CN=Oleksandr Sudakov/CN=proxy is not yet valid- check clock skew between hosts.
+
+)
+	at com.sshtools.j2ssh.transport.kex.GssGroup1Sha1.errormsg(GssGroup1Sha1.java:423)
+	at com.sshtools.j2ssh.transport.kex.GssGroup1Sha1.performClientExchange(GssGroup1Sha1.java:353)
+	... 6 more
+23:53:29,515 [Transport protocol 1] INFO  com.sshtools.sshterm.SshTerminalPanel - The connection has disconnected cleaning up
+22:54:07,921 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - The Transport Protocol has been stopped
+22:54:17,312 [GSI-SSHTerm connection 2] INFO  com.sshtools.common.ui.SshToolsApplicationClientPanel - Connecting to grid.org.ua as 
+22:54:17,328 [GSI-SSHTerm connection 2] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Starting transport protocol
+22:54:17,328 [Transport protocol 2] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Registering transport protocol messages with inputstream
+22:54:17,328 [Transport protocol 2] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Negotiating protocol version
+22:54:17,328 [Transport protocol 2] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Protocol negotiation complete
+22:54:17,343 [Transport protocol 2] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Starting key exchange
+22:54:17,343 [Transport protocol 2] INFO  com.sshtools.j2ssh.transport.kex.GssGroup1Sha1 - Starting client side key exchange.
+22:54:17,375 [Transport protocol 2] INFO  com.sshtools.j2ssh.transport.kex.GssGroup1Sha1 - Generating shared context with server...
+22:54:32,906 [Thread-7] INFO  org.glite.voms.contact.VOMSProxyInit - Contacting server [vo=testbed.univ.kiev.ua,host=grid.org.ua,port=15112,hostDN=/DC=org/DC=ugrid/O=hosts/O=KNU/CN=grid.org.ua,globusVersion=null]
+22:54:32,953 [Thread-7] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+22:54:33,500 [Thread-7] INFO  org.glite.voms.PKIVerifier - Certificate verification: Verifying certificate 'CN=voms.grid.org.ua, O=KNU, O=hosts, DC=ugrid, DC=org'
+22:54:33,703 [Thread-7] INFO  org.glite.voms.contact.VOMSProxyInit - Got AC from VOMS server [vo=testbed.univ.kiev.ua,host=grid.org.ua,port=15112,hostDN=/DC=org/DC=ugrid/O=hosts/O=KNU/CN=grid.org.ua,globusVersion=null]
+22:54:33,703 [Thread-7] INFO  org.glite.voms.PKIStore - Initializing VOMS certificate store from directory: C:\.globus\vomsdir
+22:54:33,703 [Thread-7] INFO  org.glite.voms.PKIVerifier - Certificate verification: Verifying certificate 'DC=org,DC=ugrid,O=hosts,O=KNU,CN=voms.grid.org.ua'
+22:54:33,718 [Thread-7] INFO  org.glite.voms.contact.VOMSProxyInit - ACs validation succeded.
+22:54:36,218 [Transport protocol 2] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Completing key exchange
+22:54:36,218 [Transport protocol 2] INFO  com.sshtools.j2ssh.transport.cipher.SshCipherFactory - Creating new blowfish-cbc cipher instance
+22:54:36,453 [Transport protocol 2] INFO  com.sshtools.j2ssh.transport.cipher.SshCipherFactory - Creating new blowfish-cbc cipher instance
+22:54:36,515 [GSI-SSHTerm connection 2] INFO  com.sshtools.j2ssh.authentication.AuthenticationProtocolClient - Requesting authentication methods
+22:54:37,343 [GSI-SSHTerm connection 2] INFO  com.sshtools.j2ssh.connection.ConnectionProtocol - Registering connection protocol messages
+22:54:37,343 [GSI-SSHTerm connection 2] INFO  com.sshtools.j2ssh.transport.Service - ssh-connection has been requested
+22:54:37,359 [GSI-SSHTerm connection 2] INFO  com.sshtools.j2ssh.SshClient - Opening Channel...
+22:54:37,375 [Transport protocol 2] INFO  com.sshtools.j2ssh.connection.ConnectionProtocol - Channel 0 is open [session]
+22:54:37,375 [GSI-SSHTerm connection 2] INFO  com.sshtools.j2ssh.connection.ConnectionProtocol - Channel opened successfully.
+22:54:37,375 [GSI-SSHTerm connection 2] INFO  com.sshtools.j2ssh.SshClient - Opened Channel.
+22:54:37,375 [GSI-SSHTerm connection 2] WARN  com.sshtools.j2ssh.forwarding.XDisplay - Display not set, trying localhost:0.0
+22:54:37,375 [GSI-SSHTerm connection 2] WARN  com.sshtools.common.util.X11Util - Creating fake cookie
+22:54:39,140 [GSI-SSHTerm connection 2] INFO  com.sshtools.j2ssh.session.SessionChannelClient - Requesting pseudo terminal
+22:54:39,140 [GSI-SSHTerm connection 2] INFO  com.sshtools.j2ssh.io.IOStreamConnector - Connecting InputStream to OutputStream
+22:54:39,187 [IOStream connector 1] INFO  com.sshtools.j2ssh.io.IOStreamConnector$IOStreamConnectorThread - Starting IOStreamConnectorThread thread
+22:54:39,203 [GSI-SSHTerm connection 2] INFO  com.sshtools.sshterm.SshTerminalPanel - Authentication complete and startup actions performed.
+22:55:02,984 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+22:55:03,703 [Timer-1] INFO  org.glite.voms.PKIStore - Initializing VOMS certificate store from directory: C:\.globus\vomsdir
+22:55:10,296 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.connection.ConnectionProtocol - Closing all active channels
+22:55:10,296 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.connection.Channel - Finializing channel close
+22:55:10,296 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.connection.ChannelInputStream - Closing ChannelInputStream
+22:55:10,296 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.connection.ChannelOutputStream - Closing ChannelOutputStream
+22:55:10,296 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.io.IOStreamConnector - Closing IOStreamConnector
+22:55:10,296 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.connection.ChannelInputStream - Closing ChannelInputStream
+22:55:10,296 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.connection.ConnectionProtocol - Closing all active channels
+22:55:10,296 [AWT-EventQueue-0] INFO  com.sshtools.sshterm.SshTerminalPanel - The connection has disconnected cleaning up
+22:55:10,296 [IOStream connector 1] INFO  com.sshtools.j2ssh.io.IOStreamConnector - Closing IOStreamConnector
+22:55:10,296 [IOStream connector 1] INFO  com.sshtools.j2ssh.io.IOStreamConnector$IOStreamConnectorThread - IOStreamConnectorThread is exiting
+22:55:10,312 [Transport protocol 2] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - The Transport Protocol thread threw an exception
+java.io.EOFException: The remote host has closed the connection.
+	at com.sshtools.j2ssh.transport.TransportProtocolInputStream.readBufferedData(TransportProtocolInputStream.java:196)
+	at com.sshtools.j2ssh.transport.TransportProtocolInputStream.readMessage(TransportProtocolInputStream.java:256)
+	at com.sshtools.j2ssh.transport.TransportProtocolCommon.processMessages(TransportProtocolCommon.java:1609)
+	at com.sshtools.j2ssh.transport.TransportProtocolCommon.startBinaryPacketProtocol(TransportProtocolCommon.java:1124)
+	at com.sshtools.j2ssh.transport.TransportProtocolCommon.run(TransportProtocolCommon.java:414)
+	at java.lang.Thread.run(Unknown Source)
+22:55:10,312 [Transport protocol 2] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - The Transport Protocol has been stopped
+22:55:10,312 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.connection.ConnectionProtocol - Freeing channel 0 [session]
+22:55:10,312 [AWT-EventQueue-0] INFO  com.sshtools.sshterm.SshTerminalPanel - The connection has disconnected cleaning up
+22:55:10,375 [AWT-EventQueue-0] INFO  com.sshtools.common.ui.PreferencesStore - Preferences written to C:\.sshterm\GSI-SSHTerm.properties
+22:58:36,093 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.7.0_25
+22:58:36,109 [main] INFO  com.sshtools.j2ssh.transport.cipher.SshCipherFactory - Loading supported cipher algorithms
+22:58:36,109 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshPrivateKeyFormatFactory - Loading private key formats
+22:58:36,125 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.7.0_25
+22:58:36,125 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshPublicKeyFormatFactory - Loading public key formats
+22:58:36,140 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.7.0_25
+22:58:36,140 [main] INFO  com.sshtools.j2ssh.transport.compression.SshCompressionFactory - Loading compression methods
+22:58:36,140 [main] INFO  com.sshtools.j2ssh.transport.hmac.SshHmacFactory - Loading message authentication methods
+22:58:36,140 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshKeyPairFactory - Loading public key algorithms
+22:58:36,140 [main] INFO  com.sshtools.j2ssh.transport.kex.SshKeyExchangeFactory - Loading key exchange methods
+22:58:36,250 [main] INFO  com.sshtools.common.configuration.XmlConfigurationContext - automation.xml could not be found: automation.xml (The system cannot find the file specified)
+22:58:36,312 [main] INFO  com.sshtools.common.ui.PreferencesStore - loading default.properties
+22:58:36,328 [main] INFO  com.sshtools.common.ui.PreferencesStore - loaded default.properties
+22:58:36,328 [main] INFO  com.sshtools.common.ui.PreferencesStore - loading user defualts
+22:58:36,328 [main] WARN  com.sshtools.common.ui.PreferencesStore - Could not load user defaults: java.io.FileNotFoundException: \.sshterm\GSI-SSHTerm.settings (The system cannot find the file specified)
+22:58:36,328 [main] INFO  com.sshtools.common.ui.SshToolsApplication - Preferences will be saved to C:\.sshterm
+22:58:36,328 [main] INFO  com.sshtools.common.ui.SshToolsApplication - Setting look and feel Windows (com.sun.java.swing.plaf.windows.WindowsLookAndFeel)
+22:58:36,796 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed Secure Tunneling session provider
+22:58:36,812 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed SFTP Session session provider
+22:58:36,812 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed Terminal Session session provider
+22:58:36,843 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed VNC Session session provider
+22:58:36,953 [main] INFO  com.sshtools.sshterm.SshTermFrame - \Display0 can go full screen
+22:58:41,093 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.authentication.SshAuthenticationClientFactory - Loading supported authentication methods
+22:58:44,046 [GSI-SSHTerm connection 1] INFO  com.sshtools.common.ui.SshToolsApplicationClientPanel - Connecting to grid.org.ua as 
+22:58:44,078 [GSI-SSHTerm connection 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Starting transport protocol
+22:58:44,078 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Registering transport protocol messages with inputstream
+22:58:44,265 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Negotiating protocol version
+22:58:44,265 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Protocol negotiation complete
+22:58:44,265 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Starting key exchange
+22:58:44,265 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.kex.GssGroup1Sha1 - Starting client side key exchange.
+22:58:44,296 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.kex.GssGroup1Sha1 - Generating shared context with server...
+22:59:02,140 [Thread-5] INFO  org.glite.voms.contact.VOMSProxyInit - Contacting server [vo=testbed.univ.kiev.ua,host=grid.org.ua,port=15112,hostDN=/DC=org/DC=ugrid/O=hosts/O=KNU/CN=grid.org.ua,globusVersion=null]
+22:59:02,187 [Thread-5] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+22:59:02,734 [Thread-5] INFO  org.glite.voms.PKIVerifier - Certificate verification: Verifying certificate 'CN=voms.grid.org.ua, O=KNU, O=hosts, DC=ugrid, DC=org'
+22:59:02,875 [Thread-5] INFO  org.glite.voms.contact.VOMSProxyInit - Got AC from VOMS server [vo=testbed.univ.kiev.ua,host=grid.org.ua,port=15112,hostDN=/DC=org/DC=ugrid/O=hosts/O=KNU/CN=grid.org.ua,globusVersion=null]
+22:59:02,875 [Thread-5] INFO  org.glite.voms.PKIStore - Initializing VOMS certificate store from directory: C:\.globus\vomsdir
+22:59:02,875 [Thread-5] INFO  org.glite.voms.PKIVerifier - Certificate verification: Verifying certificate 'DC=org,DC=ugrid,O=hosts,O=KNU,CN=voms.grid.org.ua'
+22:59:02,906 [Thread-5] INFO  org.glite.voms.contact.VOMSProxyInit - ACs validation succeded.
+22:59:03,640 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Completing key exchange
+22:59:03,640 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.cipher.SshCipherFactory - Creating new blowfish-cbc cipher instance
+22:59:03,718 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.cipher.SshCipherFactory - Creating new blowfish-cbc cipher instance
+22:59:03,750 [GSI-SSHTerm connection 1] INFO  com.sshtools.j2ssh.authentication.AuthenticationProtocolClient - Requesting authentication methods
+22:59:04,375 [GSI-SSHTerm connection 1] INFO  com.sshtools.j2ssh.connection.ConnectionProtocol - Registering connection protocol messages
+22:59:04,375 [GSI-SSHTerm connection 1] INFO  com.sshtools.j2ssh.transport.Service - ssh-connection has been requested
+22:59:04,390 [GSI-SSHTerm connection 1] INFO  com.sshtools.j2ssh.SshClient - Opening Channel...
+22:59:04,390 [Transport protocol 1] INFO  com.sshtools.j2ssh.connection.ConnectionProtocol - Channel 0 is open [session]
+22:59:04,390 [GSI-SSHTerm connection 1] INFO  com.sshtools.j2ssh.connection.ConnectionProtocol - Channel opened successfully.
+22:59:04,390 [GSI-SSHTerm connection 1] INFO  com.sshtools.j2ssh.SshClient - Opened Channel.
+22:59:04,406 [GSI-SSHTerm connection 1] WARN  com.sshtools.j2ssh.forwarding.XDisplay - Display not set, trying localhost:0.0
+22:59:04,406 [GSI-SSHTerm connection 1] WARN  com.sshtools.common.util.X11Util - Creating fake cookie
+22:59:05,500 [GSI-SSHTerm connection 1] INFO  com.sshtools.j2ssh.session.SessionChannelClient - Requesting pseudo terminal
+22:59:05,500 [GSI-SSHTerm connection 1] INFO  com.sshtools.j2ssh.io.IOStreamConnector - Connecting InputStream to OutputStream
+22:59:05,515 [IOStream connector 1] INFO  com.sshtools.j2ssh.io.IOStreamConnector$IOStreamConnectorThread - Starting IOStreamConnectorThread thread
+22:59:05,531 [GSI-SSHTerm connection 1] INFO  com.sshtools.sshterm.SshTerminalPanel - Authentication complete and startup actions performed.
+22:59:32,359 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+22:59:32,875 [Timer-1] INFO  org.glite.voms.PKIStore - Initializing VOMS certificate store from directory: C:\.globus\vomsdir
+22:59:45,531 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.7.0_25
+22:59:45,546 [main] INFO  com.sshtools.j2ssh.transport.cipher.SshCipherFactory - Loading supported cipher algorithms
+22:59:45,546 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshPrivateKeyFormatFactory - Loading private key formats
+22:59:45,562 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.7.0_25
+22:59:45,562 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshPublicKeyFormatFactory - Loading public key formats
+22:59:45,578 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.7.0_25
+22:59:45,578 [main] INFO  com.sshtools.j2ssh.transport.compression.SshCompressionFactory - Loading compression methods
+22:59:45,578 [main] INFO  com.sshtools.j2ssh.transport.hmac.SshHmacFactory - Loading message authentication methods
+22:59:45,578 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshKeyPairFactory - Loading public key algorithms
+22:59:45,578 [main] INFO  com.sshtools.j2ssh.transport.kex.SshKeyExchangeFactory - Loading key exchange methods
+22:59:45,687 [main] INFO  com.sshtools.common.configuration.XmlConfigurationContext - automation.xml could not be found: automation.xml (The system cannot find the file specified)
+22:59:45,750 [main] INFO  com.sshtools.common.ui.PreferencesStore - loading default.properties
+22:59:45,765 [main] INFO  com.sshtools.common.ui.PreferencesStore - loaded default.properties
+22:59:45,765 [main] INFO  com.sshtools.common.ui.PreferencesStore - loading user defualts
+22:59:45,765 [main] WARN  com.sshtools.common.ui.PreferencesStore - Could not load user defaults: java.io.FileNotFoundException: \.sshterm\GSI-SSHTerm.settings (The system cannot find the file specified)
+22:59:45,765 [main] INFO  com.sshtools.common.ui.SshToolsApplication - Preferences will be saved to C:\.sshterm
+22:59:45,765 [main] INFO  com.sshtools.common.ui.SshToolsApplication - Setting look and feel Windows (com.sun.java.swing.plaf.windows.WindowsLookAndFeel)
+22:59:46,250 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed Secure Tunneling session provider
+22:59:46,265 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed SFTP Session session provider
+22:59:46,265 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed Terminal Session session provider
+22:59:46,296 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed VNC Session session provider
+22:59:46,421 [main] INFO  com.sshtools.sshterm.SshTermFrame - \Display0 can go full screen
+22:59:48,500 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.authentication.SshAuthenticationClientFactory - Loading supported authentication methods
+22:59:50,171 [GSI-SSHTerm connection 1] INFO  com.sshtools.common.ui.SshToolsApplicationClientPanel - Connecting to grid.org.ua as 
+22:59:50,203 [GSI-SSHTerm connection 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Starting transport protocol
+22:59:50,203 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Registering transport protocol messages with inputstream
+22:59:50,390 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Negotiating protocol version
+22:59:50,390 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Protocol negotiation complete
+22:59:50,390 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Starting key exchange
+22:59:50,390 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.kex.GssGroup1Sha1 - Starting client side key exchange.
+22:59:50,421 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.kex.GssGroup1Sha1 - Generating shared context with server...
+23:00:02,359 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:00:02,875 [Timer-1] INFO  org.glite.voms.PKIStore - Initializing VOMS certificate store from directory: C:\.globus\vomsdir
+23:00:05,250 [Thread-5] INFO  org.glite.voms.contact.VOMSProxyInit - Contacting server [vo=testbed.univ.kiev.ua,host=grid.org.ua,port=15112,hostDN=/DC=org/DC=ugrid/O=hosts/O=KNU/CN=grid.org.ua,globusVersion=null]
+23:00:05,296 [Thread-5] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:00:05,859 [Thread-5] INFO  org.glite.voms.PKIVerifier - Certificate verification: Verifying certificate 'CN=voms.grid.org.ua, O=KNU, O=hosts, DC=ugrid, DC=org'
+23:00:05,984 [Thread-5] INFO  org.glite.voms.contact.VOMSProxyInit - Got AC from VOMS server [vo=testbed.univ.kiev.ua,host=grid.org.ua,port=15112,hostDN=/DC=org/DC=ugrid/O=hosts/O=KNU/CN=grid.org.ua,globusVersion=null]
+23:00:05,984 [Thread-5] INFO  org.glite.voms.PKIStore - Initializing VOMS certificate store from directory: C:\.globus\vomsdir
+23:00:05,984 [Thread-5] INFO  org.glite.voms.PKIVerifier - Certificate verification: Verifying certificate 'DC=org,DC=ugrid,O=hosts,O=KNU,CN=voms.grid.org.ua'
+23:00:06,015 [Thread-5] INFO  org.glite.voms.contact.VOMSProxyInit - ACs validation succeded.
+23:00:06,718 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Completing key exchange
+23:00:06,718 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.cipher.SshCipherFactory - Creating new blowfish-cbc cipher instance
+23:00:06,796 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.cipher.SshCipherFactory - Creating new blowfish-cbc cipher instance
+23:00:06,828 [GSI-SSHTerm connection 1] INFO  com.sshtools.j2ssh.authentication.AuthenticationProtocolClient - Requesting authentication methods
+23:00:07,375 [GSI-SSHTerm connection 1] INFO  com.sshtools.j2ssh.connection.ConnectionProtocol - Registering connection protocol messages
+23:00:07,375 [GSI-SSHTerm connection 1] INFO  com.sshtools.j2ssh.transport.Service - ssh-connection has been requested
+23:00:07,406 [GSI-SSHTerm connection 1] INFO  com.sshtools.j2ssh.SshClient - Opening Channel...
+23:00:07,406 [Transport protocol 1] INFO  com.sshtools.j2ssh.connection.ConnectionProtocol - Channel 0 is open [session]
+23:00:07,406 [GSI-SSHTerm connection 1] INFO  com.sshtools.j2ssh.connection.ConnectionProtocol - Channel opened successfully.
+23:00:07,406 [GSI-SSHTerm connection 1] INFO  com.sshtools.j2ssh.SshClient - Opened Channel.
+23:00:07,406 [GSI-SSHTerm connection 1] WARN  com.sshtools.j2ssh.forwarding.XDisplay - Display not set, trying localhost:0.0
+23:00:07,421 [GSI-SSHTerm connection 1] WARN  com.sshtools.common.util.X11Util - Creating fake cookie
+23:00:08,390 [GSI-SSHTerm connection 1] INFO  com.sshtools.j2ssh.session.SessionChannelClient - Requesting pseudo terminal
+23:00:08,406 [GSI-SSHTerm connection 1] INFO  com.sshtools.j2ssh.io.IOStreamConnector - Connecting InputStream to OutputStream
+23:00:08,406 [IOStream connector 1] INFO  com.sshtools.j2ssh.io.IOStreamConnector$IOStreamConnectorThread - Starting IOStreamConnectorThread thread
+23:00:08,421 [GSI-SSHTerm connection 1] INFO  com.sshtools.sshterm.SshTerminalPanel - Authentication complete and startup actions performed.
+23:00:10,968 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.connection.ConnectionProtocol - Closing all active channels
+23:00:10,968 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.connection.Channel - Finializing channel close
+23:00:10,968 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.connection.ChannelInputStream - Closing ChannelInputStream
+23:00:10,968 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.connection.ChannelOutputStream - Closing ChannelOutputStream
+23:00:10,968 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.io.IOStreamConnector - Closing IOStreamConnector
+23:00:10,968 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.connection.ChannelInputStream - Closing ChannelInputStream
+23:00:10,968 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.connection.ConnectionProtocol - Closing all active channels
+23:00:10,968 [AWT-EventQueue-0] INFO  com.sshtools.sshterm.SshTerminalPanel - The connection has disconnected cleaning up
+23:00:10,968 [IOStream connector 1] INFO  com.sshtools.j2ssh.io.IOStreamConnector - Closing IOStreamConnector
+23:00:10,968 [IOStream connector 1] INFO  com.sshtools.j2ssh.io.IOStreamConnector$IOStreamConnectorThread - IOStreamConnectorThread is exiting
+23:00:10,968 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.connection.ConnectionProtocol - Freeing channel 0 [session]
+23:00:10,968 [AWT-EventQueue-0] INFO  com.sshtools.sshterm.SshTerminalPanel - The connection has disconnected cleaning up
+23:00:10,984 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - The Transport Protocol thread threw an exception
+java.io.EOFException: The remote host has closed the connection.
+	at com.sshtools.j2ssh.transport.TransportProtocolInputStream.readBufferedData(TransportProtocolInputStream.java:196)
+	at com.sshtools.j2ssh.transport.TransportProtocolInputStream.readMessage(TransportProtocolInputStream.java:256)
+	at com.sshtools.j2ssh.transport.TransportProtocolCommon.processMessages(TransportProtocolCommon.java:1609)
+	at com.sshtools.j2ssh.transport.TransportProtocolCommon.startBinaryPacketProtocol(TransportProtocolCommon.java:1124)
+	at com.sshtools.j2ssh.transport.TransportProtocolCommon.run(TransportProtocolCommon.java:414)
+	at java.lang.Thread.run(Unknown Source)
+23:00:10,984 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - The Transport Protocol has been stopped
+23:00:11,031 [AWT-EventQueue-0] INFO  com.sshtools.common.ui.PreferencesStore - Preferences written to C:\.sshterm\GSI-SSHTerm.properties
+23:00:32,359 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:00:32,875 [Timer-1] INFO  org.glite.voms.PKIStore - Initializing VOMS certificate store from directory: C:\.globus\vomsdir
+23:01:02,359 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:01:02,875 [Timer-1] INFO  org.glite.voms.PKIStore - Initializing VOMS certificate store from directory: C:\.globus\vomsdir
+23:01:32,359 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:01:32,875 [Timer-1] INFO  org.glite.voms.PKIStore - Initializing VOMS certificate store from directory: C:\.globus\vomsdir
+23:02:02,359 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\.globus\certificates
+23:02:02,875 [Timer-1] INFO  org.glite.voms.PKIStore - Initializing VOMS certificate store from directory: C:\.globus\vomsdir
+23:02:06,421 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.connection.ConnectionProtocol - Closing all active channels
+23:02:06,421 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.connection.Channel - Finializing channel close
+23:02:06,421 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.connection.ChannelInputStream - Closing ChannelInputStream
+23:02:06,421 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.connection.ChannelOutputStream - Closing ChannelOutputStream
+23:02:06,421 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.io.IOStreamConnector - Closing IOStreamConnector
+23:02:06,421 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.connection.ChannelInputStream - Closing ChannelInputStream
+23:02:06,421 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.connection.ConnectionProtocol - Closing all active channels
+23:02:06,421 [AWT-EventQueue-0] INFO  com.sshtools.sshterm.SshTerminalPanel - The connection has disconnected cleaning up
+23:02:06,421 [IOStream connector 1] INFO  com.sshtools.j2ssh.io.IOStreamConnector - Closing IOStreamConnector
+23:02:06,421 [IOStream connector 1] INFO  com.sshtools.j2ssh.io.IOStreamConnector$IOStreamConnectorThread - IOStreamConnectorThread is exiting
+23:02:06,421 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.connection.ConnectionProtocol - Freeing channel 0 [session]
+23:02:06,437 [AWT-EventQueue-0] INFO  com.sshtools.sshterm.SshTerminalPanel - The connection has disconnected cleaning up
+23:02:06,437 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - The Transport Protocol thread threw an exception
+java.io.EOFException: The remote host has closed the connection.
+	at com.sshtools.j2ssh.transport.TransportProtocolInputStream.readBufferedData(TransportProtocolInputStream.java:196)
+	at com.sshtools.j2ssh.transport.TransportProtocolInputStream.readMessage(TransportProtocolInputStream.java:256)
+	at com.sshtools.j2ssh.transport.TransportProtocolCommon.processMessages(TransportProtocolCommon.java:1609)
+	at com.sshtools.j2ssh.transport.TransportProtocolCommon.startBinaryPacketProtocol(TransportProtocolCommon.java:1124)
+	at com.sshtools.j2ssh.transport.TransportProtocolCommon.run(TransportProtocolCommon.java:414)
+	at java.lang.Thread.run(Unknown Source)
+23:02:06,437 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - The Transport Protocol has been stopped
+23:02:06,500 [AWT-EventQueue-0] INFO  com.sshtools.common.ui.PreferencesStore - Preferences written to C:\.sshterm\GSI-SSHTerm.properties
+23:03:24,046 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.7.0_25
+23:03:24,062 [main] INFO  com.sshtools.j2ssh.transport.cipher.SshCipherFactory - Loading supported cipher algorithms
+23:03:24,062 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshPrivateKeyFormatFactory - Loading private key formats
+23:03:24,078 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.7.0_25
+23:03:24,078 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshPublicKeyFormatFactory - Loading public key formats
+23:03:24,078 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.7.0_25
+23:03:24,093 [main] INFO  com.sshtools.j2ssh.transport.compression.SshCompressionFactory - Loading compression methods
+23:03:24,093 [main] INFO  com.sshtools.j2ssh.transport.hmac.SshHmacFactory - Loading message authentication methods
+23:03:24,093 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshKeyPairFactory - Loading public key algorithms
+23:03:24,093 [main] INFO  com.sshtools.j2ssh.transport.kex.SshKeyExchangeFactory - Loading key exchange methods
+23:03:24,203 [main] INFO  com.sshtools.common.configuration.XmlConfigurationContext - automation.xml could not be found: automation.xml (The system cannot find the file specified)
+23:03:24,265 [main] INFO  com.sshtools.common.ui.PreferencesStore - loading default.properties
+23:03:24,281 [main] INFO  com.sshtools.common.ui.PreferencesStore - loaded default.properties
+23:03:24,281 [main] INFO  com.sshtools.common.ui.PreferencesStore - loading user defualts
+23:03:24,281 [main] WARN  com.sshtools.common.ui.PreferencesStore - Could not load user defaults: java.io.FileNotFoundException: \.sshterm\GSI-SSHTerm.settings (The system cannot find the file specified)
+23:03:24,281 [main] INFO  com.sshtools.common.ui.SshToolsApplication - Preferences will be saved to C:\.sshterm
+23:03:24,281 [main] INFO  com.sshtools.common.ui.SshToolsApplication - Setting look and feel Windows (com.sun.java.swing.plaf.windows.WindowsLookAndFeel)
+23:03:24,750 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed Secure Tunneling session provider
+23:03:24,765 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed SFTP Session session provider
+23:03:24,765 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed Terminal Session session provider
+23:03:24,796 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed VNC Session session provider
+23:03:24,906 [main] INFO  com.sshtools.sshterm.SshTermFrame - \Display0 can go full screen
+23:03:31,109 [AWT-EventQueue-0] INFO  com.sshtools.common.ui.PreferencesStore - Preferences written to C:\.sshterm\GSI-SSHTerm.properties
+23:05:54,015 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.7.0_25
+23:05:54,031 [main] INFO  com.sshtools.j2ssh.transport.cipher.SshCipherFactory - Loading supported cipher algorithms
+23:05:54,031 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshPrivateKeyFormatFactory - Loading private key formats
+23:05:54,046 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.7.0_25
+23:05:54,046 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshPublicKeyFormatFactory - Loading public key formats
+23:05:54,046 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.7.0_25
+23:05:54,046 [main] INFO  com.sshtools.j2ssh.transport.compression.SshCompressionFactory - Loading compression methods
+23:05:54,062 [main] INFO  com.sshtools.j2ssh.transport.hmac.SshHmacFactory - Loading message authentication methods
+23:05:54,062 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshKeyPairFactory - Loading public key algorithms
+23:05:54,062 [main] INFO  com.sshtools.j2ssh.transport.kex.SshKeyExchangeFactory - Loading key exchange methods
+23:05:54,171 [main] INFO  com.sshtools.common.configuration.XmlConfigurationContext - automation.xml could not be found: automation.xml (The system cannot find the file specified)
+23:05:54,187 [main] INFO  com.sshtools.common.ui.PreferencesStore - loading default.properties
+23:05:54,203 [main] INFO  com.sshtools.common.ui.PreferencesStore - loaded default.properties
+23:05:54,203 [main] INFO  com.sshtools.common.ui.PreferencesStore - loading user defualts
+23:05:54,203 [main] WARN  com.sshtools.common.ui.PreferencesStore - Could not load user defaults: java.io.FileNotFoundException: C:\Documents and Settings\saa\TESTBED\home\.sshterm\GSI-SSHTerm.settings (The system cannot find the file specified)
+23:05:54,203 [main] INFO  com.sshtools.common.ui.PreferencesStore - Preferences written to C:\Documents and Settings\saa\TESTBED\home\.sshterm\GSI-SSHTerm.properties
+23:05:54,203 [main] INFO  com.sshtools.common.ui.SshToolsApplication - Preferences will be saved to C:\Documents and Settings\saa\TESTBED\home\.sshterm
+23:05:54,203 [main] INFO  com.sshtools.common.ui.SshToolsApplication - Setting look and feel Windows (com.sun.java.swing.plaf.windows.WindowsLookAndFeel)
+23:05:54,671 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed Secure Tunneling session provider
+23:05:54,687 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed SFTP Session session provider
+23:05:54,703 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed Terminal Session session provider
+23:05:54,718 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed VNC Session session provider
+23:05:54,875 [main] INFO  com.sshtools.sshterm.SshTermFrame - \Display0 can go full screen
+23:05:59,187 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.authentication.SshAuthenticationClientFactory - Loading supported authentication methods
+23:06:10,812 [GSI-SSHTerm connection 1] INFO  com.sshtools.common.ui.SshToolsApplicationClientPanel - Connecting to grid.org.ua as 
+23:06:10,843 [GSI-SSHTerm connection 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Starting transport protocol
+23:06:10,843 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Registering transport protocol messages with inputstream
+23:06:11,015 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Negotiating protocol version
+23:06:11,015 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Protocol negotiation complete
+23:06:11,015 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Starting key exchange
+23:06:11,015 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.kex.GssGroup1Sha1 - Starting client side key exchange.
+23:06:11,046 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.kex.GssGroup1Sha1 - Generating shared context with server...
+23:06:25,546 [Thread-5] INFO  org.glite.voms.contact.VOMSProxyInit - Contacting server [vo=testbed.univ.kiev.ua,host=voms.grid.org.ua,port=15112,hostDN=/DC=org/DC=ugrid/O=hosts/O=KNU/CN=voms.grid.org.ua,globusVersion=null]
+23:06:25,578 [Thread-5] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\Documents and Settings\saa\TESTBED\home\.globus\certificates
+23:06:26,046 [Thread-5] INFO  org.glite.voms.PKIVerifier - Certificate verification: Verifying certificate 'CN=voms.grid.org.ua, O=KNU, O=hosts, DC=ugrid, DC=org'
+23:06:26,500 [Thread-5] INFO  org.glite.voms.contact.VOMSProxyInit - Got AC from VOMS server [vo=testbed.univ.kiev.ua,host=voms.grid.org.ua,port=15112,hostDN=/DC=org/DC=ugrid/O=hosts/O=KNU/CN=voms.grid.org.ua,globusVersion=null]
+23:06:26,500 [Thread-5] INFO  org.glite.voms.PKIStore - Initializing VOMS certificate store from directory: C:\Documents and Settings\saa\TESTBED\home\.globus\vomsdir
+23:06:26,515 [Thread-5] INFO  org.glite.voms.PKIVerifier - Certificate verification: Verifying certificate 'DC=org,DC=ugrid,O=hosts,O=KNU,CN=voms.grid.org.ua'
+23:06:26,531 [Thread-5] INFO  org.glite.voms.contact.VOMSProxyInit - ACs validation succeded.
+23:06:27,468 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.TransportProtocolCommon - Completing key exchange
+23:06:27,468 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.cipher.SshCipherFactory - Creating new blowfish-cbc cipher instance
+23:06:27,531 [Transport protocol 1] INFO  com.sshtools.j2ssh.transport.cipher.SshCipherFactory - Creating new blowfish-cbc cipher instance
+23:06:27,562 [GSI-SSHTerm connection 1] INFO  com.sshtools.j2ssh.authentication.AuthenticationProtocolClient - Requesting authentication methods
+23:06:28,109 [GSI-SSHTerm connection 1] INFO  com.sshtools.j2ssh.connection.ConnectionProtocol - Registering connection protocol messages
+23:06:28,109 [GSI-SSHTerm connection 1] INFO  com.sshtools.j2ssh.transport.Service - ssh-connection has been requested
+23:06:28,125 [GSI-SSHTerm connection 1] INFO  com.sshtools.j2ssh.SshClient - Opening Channel...
+23:06:28,125 [Transport protocol 1] INFO  com.sshtools.j2ssh.connection.ConnectionProtocol - Channel 0 is open [session]
+23:06:28,125 [GSI-SSHTerm connection 1] INFO  com.sshtools.j2ssh.connection.ConnectionProtocol - Channel opened successfully.
+23:06:28,125 [GSI-SSHTerm connection 1] INFO  com.sshtools.j2ssh.SshClient - Opened Channel.
+23:06:28,125 [GSI-SSHTerm connection 1] WARN  com.sshtools.j2ssh.forwarding.XDisplay - Display not set, trying localhost:0.0
+23:06:28,125 [GSI-SSHTerm connection 1] WARN  com.sshtools.common.util.X11Util - Creating fake cookie
+23:06:28,921 [GSI-SSHTerm connection 1] INFO  com.sshtools.j2ssh.session.SessionChannelClient - Requesting pseudo terminal
+23:06:28,921 [GSI-SSHTerm connection 1] INFO  com.sshtools.j2ssh.io.IOStreamConnector - Connecting InputStream to OutputStream
+23:06:28,921 [IOStream connector 1] INFO  com.sshtools.j2ssh.io.IOStreamConnector$IOStreamConnectorThread - Starting IOStreamConnectorThread thread
+23:06:28,953 [GSI-SSHTerm connection 1] INFO  com.sshtools.sshterm.SshTerminalPanel - Authentication complete and startup actions performed.
+23:06:55,609 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\Documents and Settings\saa\TESTBED\home\.globus\certificates
+23:06:56,515 [Timer-1] INFO  org.glite.voms.PKIStore - Initializing VOMS certificate store from directory: C:\Documents and Settings\saa\TESTBED\home\.globus\vomsdir
+23:07:25,609 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\Documents and Settings\saa\TESTBED\home\.globus\certificates
+23:07:26,515 [Timer-1] INFO  org.glite.voms.PKIStore - Initializing VOMS certificate store from directory: C:\Documents and Settings\saa\TESTBED\home\.globus\vomsdir
+23:07:55,609 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\Documents and Settings\saa\TESTBED\home\.globus\certificates
+23:07:56,515 [Timer-1] INFO  org.glite.voms.PKIStore - Initializing VOMS certificate store from directory: C:\Documents and Settings\saa\TESTBED\home\.globus\vomsdir
+23:08:25,609 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\Documents and Settings\saa\TESTBED\home\.globus\certificates
+23:08:26,515 [Timer-1] INFO  org.glite.voms.PKIStore - Initializing VOMS certificate store from directory: C:\Documents and Settings\saa\TESTBED\home\.globus\vomsdir
+23:08:55,609 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\Documents and Settings\saa\TESTBED\home\.globus\certificates
+23:08:56,515 [Timer-1] INFO  org.glite.voms.PKIStore - Initializing VOMS certificate store from directory: C:\Documents and Settings\saa\TESTBED\home\.globus\vomsdir
+23:09:25,609 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\Documents and Settings\saa\TESTBED\home\.globus\certificates
+23:09:26,515 [Timer-1] INFO  org.glite.voms.PKIStore - Initializing VOMS certificate store from directory: C:\Documents and Settings\saa\TESTBED\home\.globus\vomsdir
+23:09:55,609 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\Documents and Settings\saa\TESTBED\home\.globus\certificates
+23:09:56,515 [Timer-1] INFO  org.glite.voms.PKIStore - Initializing VOMS certificate store from directory: C:\Documents and Settings\saa\TESTBED\home\.globus\vomsdir
+23:10:25,609 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\Documents and Settings\saa\TESTBED\home\.globus\certificates
+23:10:26,515 [Timer-1] INFO  org.glite.voms.PKIStore - Initializing VOMS certificate store from directory: C:\Documents and Settings\saa\TESTBED\home\.globus\vomsdir
+23:10:55,609 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\Documents and Settings\saa\TESTBED\home\.globus\certificates
+23:10:56,515 [Timer-1] INFO  org.glite.voms.PKIStore - Initializing VOMS certificate store from directory: C:\Documents and Settings\saa\TESTBED\home\.globus\vomsdir
+23:11:25,609 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\Documents and Settings\saa\TESTBED\home\.globus\certificates
+23:11:26,515 [Timer-1] INFO  org.glite.voms.PKIStore - Initializing VOMS certificate store from directory: C:\Documents and Settings\saa\TESTBED\home\.globus\vomsdir
+23:11:55,609 [Timer-0] INFO  org.glite.voms.PKIStore - Initializing CA certificate store from directory: C:\Documents and Settings\saa\TESTBED\home\.globus\certificates
+23:11:56,515 [Timer-1] INFO  org.glite.voms.PKIStore - Initializing VOMS certificate store from directory: C:\Documents and Settings\saa\TESTBED\home\.globus\vomsdir
+13:10:20,450 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.8.0_201
+13:10:20,454 [main] INFO  com.sshtools.j2ssh.transport.cipher.SshCipherFactory - Loading supported cipher algorithms
+13:10:20,457 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshPrivateKeyFormatFactory - Loading private key formats
+13:10:20,466 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.8.0_201
+13:10:20,466 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshPublicKeyFormatFactory - Loading public key formats
+13:10:20,468 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.8.0_201
+13:10:20,469 [main] INFO  com.sshtools.j2ssh.transport.compression.SshCompressionFactory - Loading compression methods
+13:10:20,469 [main] INFO  com.sshtools.j2ssh.transport.hmac.SshHmacFactory - Loading message authentication methods
+13:10:20,472 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshKeyPairFactory - Loading public key algorithms
+13:10:20,474 [main] INFO  com.sshtools.j2ssh.transport.kex.SshKeyExchangeFactory - Loading key exchange methods
+13:10:20,525 [main] INFO  com.sshtools.common.configuration.XmlConfigurationContext - automation.xml could not be found: automation.xml (The system cannot find the file specified)
+13:10:20,534 [main] INFO  com.sshtools.common.ui.PreferencesStore - loading default.properties
+13:10:20,539 [main] INFO  com.sshtools.common.ui.PreferencesStore - loaded default.properties
+13:10:20,539 [main] INFO  com.sshtools.common.ui.PreferencesStore - loading user defualts
+13:10:20,539 [main] WARN  com.sshtools.common.ui.PreferencesStore - Could not load user defaults: java.io.FileNotFoundException: C:\Users\0edoc\Desktop\New folder\GSI-SSHTerm-Testbed-20140330\home\.sshterm\GSI-SSHTerm.settings (The system cannot find the file specified)
+13:10:20,542 [main] INFO  com.sshtools.common.ui.PreferencesStore - Preferences written to C:\Users\0edoc\Desktop\New folder\GSI-SSHTerm-Testbed-20140330\home\.sshterm\GSI-SSHTerm.properties
+13:10:20,543 [main] INFO  com.sshtools.common.ui.SshToolsApplication - Preferences will be saved to C:\Users\0edoc\Desktop\New folder\GSI-SSHTerm-Testbed-20140330\home\.sshterm
+13:10:20,544 [main] INFO  com.sshtools.common.ui.SshToolsApplication - Setting look and feel Windows (com.sun.java.swing.plaf.windows.WindowsLookAndFeel)
+13:10:21,955 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed Secure Tunneling session provider
+13:10:21,982 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed SFTP Session session provider
+13:10:21,991 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed Terminal Session session provider
+13:10:22,052 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed VNC Session session provider
+13:10:22,360 [main] INFO  com.sshtools.sshterm.SshTermFrame - \Display0 can go full screen
+13:10:35,413 [AWT-EventQueue-0] INFO  com.sshtools.common.ui.PreferencesStore - Preferences written to C:\Users\0edoc\Desktop\New folder\GSI-SSHTerm-Testbed-20140330\home\.sshterm\GSI-SSHTerm.properties
+13:11:04,270 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.8.0_201
+13:11:04,275 [main] INFO  com.sshtools.j2ssh.transport.cipher.SshCipherFactory - Loading supported cipher algorithms
+13:11:04,280 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshPrivateKeyFormatFactory - Loading private key formats
+13:11:04,290 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.8.0_201
+13:11:04,292 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshPublicKeyFormatFactory - Loading public key formats
+13:11:04,293 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.8.0_201
+13:11:04,294 [main] INFO  com.sshtools.j2ssh.transport.compression.SshCompressionFactory - Loading compression methods
+13:11:04,295 [main] INFO  com.sshtools.j2ssh.transport.hmac.SshHmacFactory - Loading message authentication methods
+13:11:04,298 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshKeyPairFactory - Loading public key algorithms
+13:11:04,300 [main] INFO  com.sshtools.j2ssh.transport.kex.SshKeyExchangeFactory - Loading key exchange methods
+13:11:04,361 [main] INFO  com.sshtools.common.configuration.XmlConfigurationContext - automation.xml could not be found: automation.xml (The system cannot find the file specified)
+13:11:04,374 [main] INFO  com.sshtools.common.ui.PreferencesStore - loading default.properties
+13:11:04,379 [main] INFO  com.sshtools.common.ui.PreferencesStore - loaded default.properties
+13:11:04,380 [main] INFO  com.sshtools.common.ui.PreferencesStore - loading user defualts
+13:11:04,380 [main] WARN  com.sshtools.common.ui.PreferencesStore - Could not load user defaults: java.io.FileNotFoundException: D:\UNIV\Comp_Sys\lab_3\GSI-SSHTerm-Testbed-20140330\home\.sshterm\GSI-SSHTerm.settings (The system cannot find the file specified)
+13:11:04,382 [main] INFO  com.sshtools.common.ui.PreferencesStore - Preferences written to D:\UNIV\Comp_Sys\lab_3\GSI-SSHTerm-Testbed-20140330\home\.sshterm\GSI-SSHTerm.properties
+13:11:04,382 [main] INFO  com.sshtools.common.ui.SshToolsApplication - Preferences will be saved to D:\UNIV\Comp_Sys\lab_3\GSI-SSHTerm-Testbed-20140330\home\.sshterm
+13:11:04,383 [main] INFO  com.sshtools.common.ui.SshToolsApplication - Setting look and feel Windows (com.sun.java.swing.plaf.windows.WindowsLookAndFeel)
+13:11:04,919 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed Secure Tunneling session provider
+13:11:04,945 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed SFTP Session session provider
+13:11:04,954 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed Terminal Session session provider
+13:11:04,994 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed VNC Session session provider
+13:11:05,357 [main] INFO  com.sshtools.sshterm.SshTermFrame - \Display0 can go full screen
+13:11:38,206 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.authentication.SshAuthenticationClientFactory - Loading supported authentication methods
+13:11:38,227 [GSI-SSHTerm connection 1] INFO  com.sshtools.common.ui.SshToolsApplicationClientPanel - Connecting to cluster.univ.kiev.ua as 
+13:11:59,247 [GSI-SSHTerm connection 1] ERROR com.sshtools.common.ui.SshToolsApplicationClientPanel - Thrown (IOException): java.net.ConnectException: Connection timed out: connect
+13:12:28,917 [GSI-SSHTerm connection 2] INFO  com.sshtools.common.ui.SshToolsApplicationClientPanel - Connecting to cluster.univ.kiev.ua as 
+13:12:49,925 [GSI-SSHTerm connection 2] ERROR com.sshtools.common.ui.SshToolsApplicationClientPanel - Thrown (IOException): java.net.ConnectException: Connection timed out: connect
+13:13:11,250 [AWT-EventQueue-0] INFO  com.sshtools.sshterm.SshTerminalPanel - New connection cancelled
+13:13:16,650 [GSI-SSHTerm connection 3] INFO  com.sshtools.common.ui.SshToolsApplicationClientPanel - Connecting to cluster.univ.kiev.ua as 
+13:13:22,709 [AWT-EventQueue-0] INFO  com.sshtools.common.ui.PreferencesStore - Preferences written to D:\UNIV\Comp_Sys\lab_3\GSI-SSHTerm-Testbed-20140330\home\.sshterm\GSI-SSHTerm.properties
+13:13:26,672 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.8.0_201
+13:13:26,676 [main] INFO  com.sshtools.j2ssh.transport.cipher.SshCipherFactory - Loading supported cipher algorithms
+13:13:26,679 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshPrivateKeyFormatFactory - Loading private key formats
+13:13:26,686 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.8.0_201
+13:13:26,686 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshPublicKeyFormatFactory - Loading public key formats
+13:13:26,688 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.8.0_201
+13:13:26,689 [main] INFO  com.sshtools.j2ssh.transport.compression.SshCompressionFactory - Loading compression methods
+13:13:26,690 [main] INFO  com.sshtools.j2ssh.transport.hmac.SshHmacFactory - Loading message authentication methods
+13:13:26,692 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshKeyPairFactory - Loading public key algorithms
+13:13:26,693 [main] INFO  com.sshtools.j2ssh.transport.kex.SshKeyExchangeFactory - Loading key exchange methods
+13:13:26,741 [main] INFO  com.sshtools.common.configuration.XmlConfigurationContext - automation.xml could not be found: automation.xml (The system cannot find the file specified)
+13:13:26,750 [main] INFO  com.sshtools.common.ui.PreferencesStore - loading default.properties
+13:13:26,753 [main] INFO  com.sshtools.common.ui.PreferencesStore - loaded default.properties
+13:13:26,754 [main] INFO  com.sshtools.common.ui.PreferencesStore - loading user defualts
+13:13:26,754 [main] WARN  com.sshtools.common.ui.PreferencesStore - Could not load user defaults: java.io.FileNotFoundException: D:\UNIV\Comp_Sys\lab_3\GSI-SSHTerm-Testbed-20140330\home\.sshterm\GSI-SSHTerm.settings (The system cannot find the file specified)
+13:13:26,756 [main] INFO  com.sshtools.common.ui.PreferencesStore - Preferences written to D:\UNIV\Comp_Sys\lab_3\GSI-SSHTerm-Testbed-20140330\home\.sshterm\GSI-SSHTerm.properties
+13:13:26,757 [main] INFO  com.sshtools.common.ui.SshToolsApplication - Preferences will be saved to D:\UNIV\Comp_Sys\lab_3\GSI-SSHTerm-Testbed-20140330\home\.sshterm
+13:13:26,757 [main] INFO  com.sshtools.common.ui.SshToolsApplication - Setting look and feel Windows (com.sun.java.swing.plaf.windows.WindowsLookAndFeel)
+13:13:27,166 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed Secure Tunneling session provider
+13:13:27,174 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed SFTP Session session provider
+13:13:27,177 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed Terminal Session session provider
+13:13:27,194 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed VNC Session session provider
+13:13:27,542 [main] INFO  com.sshtools.sshterm.SshTermFrame - \Display0 can go full screen
+13:13:34,496 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.authentication.SshAuthenticationClientFactory - Loading supported authentication methods
+13:13:34,510 [GSI-SSHTerm connection 1] INFO  com.sshtools.common.ui.SshToolsApplicationClientPanel - Connecting to cluster.univ.kiev.ua as 
+13:13:55,528 [GSI-SSHTerm connection 1] ERROR com.sshtools.common.ui.SshToolsApplicationClientPanel - Thrown (IOException): java.net.ConnectException: Connection timed out: connect
+13:15:03,541 [GSI-SSHTerm connection 2] INFO  com.sshtools.common.ui.SshToolsApplicationClientPanel - Connecting to cluster.univ.kiev.ua as 
+13:15:24,549 [GSI-SSHTerm connection 2] ERROR com.sshtools.common.ui.SshToolsApplicationClientPanel - Thrown (IOException): java.net.ConnectException: Connection timed out: connect
+13:18:55,240 [AWT-EventQueue-0] INFO  com.sshtools.common.ui.PreferencesStore - Preferences written to D:\UNIV\Comp_Sys\lab_3\GSI-SSHTerm-Testbed-20140330\home\.sshterm\GSI-SSHTerm.properties
+15:51:52,111 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.8.0_201
+15:51:52,133 [main] INFO  com.sshtools.j2ssh.transport.cipher.SshCipherFactory - Loading supported cipher algorithms
+15:51:52,137 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshPrivateKeyFormatFactory - Loading private key formats
+15:51:52,146 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.8.0_201
+15:51:52,147 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshPublicKeyFormatFactory - Loading public key formats
+15:51:52,148 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.8.0_201
+15:51:52,149 [main] INFO  com.sshtools.j2ssh.transport.compression.SshCompressionFactory - Loading compression methods
+15:51:52,150 [main] INFO  com.sshtools.j2ssh.transport.hmac.SshHmacFactory - Loading message authentication methods
+15:51:52,152 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshKeyPairFactory - Loading public key algorithms
+15:51:52,156 [main] INFO  com.sshtools.j2ssh.transport.kex.SshKeyExchangeFactory - Loading key exchange methods
+15:51:52,242 [main] INFO  com.sshtools.common.configuration.XmlConfigurationContext - automation.xml could not be found: automation.xml (The system cannot find the file specified)
+15:51:52,259 [main] INFO  com.sshtools.common.ui.PreferencesStore - loading default.properties
+15:51:52,264 [main] INFO  com.sshtools.common.ui.PreferencesStore - loaded default.properties
+15:51:52,264 [main] INFO  com.sshtools.common.ui.PreferencesStore - loading user defualts
+15:51:52,264 [main] WARN  com.sshtools.common.ui.PreferencesStore - Could not load user defaults: java.io.FileNotFoundException: D:\UNIV\Comp_Sys\lab_3\GSI-SSHTerm-Testbed-20140330\home\.sshterm\GSI-SSHTerm.settings (The system cannot find the file specified)
+15:51:52,269 [main] INFO  com.sshtools.common.ui.PreferencesStore - Preferences written to D:\UNIV\Comp_Sys\lab_3\GSI-SSHTerm-Testbed-20140330\home\.sshterm\GSI-SSHTerm.properties
+15:51:52,269 [main] INFO  com.sshtools.common.ui.SshToolsApplication - Preferences will be saved to D:\UNIV\Comp_Sys\lab_3\GSI-SSHTerm-Testbed-20140330\home\.sshterm
+15:51:52,270 [main] INFO  com.sshtools.common.ui.SshToolsApplication - Setting look and feel Windows (com.sun.java.swing.plaf.windows.WindowsLookAndFeel)
+15:51:53,200 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed Secure Tunneling session provider
+15:51:53,207 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed SFTP Session session provider
+15:51:53,210 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed Terminal Session session provider
+15:51:53,224 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed VNC Session session provider
+15:51:53,408 [main] INFO  com.sshtools.sshterm.SshTermFrame - \Display0 can go full screen
+15:52:12,786 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.authentication.SshAuthenticationClientFactory - Loading supported authentication methods
+15:52:12,806 [GSI-SSHTerm connection 1] INFO  com.sshtools.common.ui.SshToolsApplicationClientPanel - Connecting to cluster.univ.kiev.ua as 
+15:52:27,120 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.transport.HostKeyVerification - Saving null
+15:52:33,833 [GSI-SSHTerm connection 1] ERROR com.sshtools.common.ui.SshToolsApplicationClientPanel - Thrown (IOException): java.net.ConnectException: Connection timed out: connect
+15:53:18,582 [GSI-SSHTerm connection 2] INFO  com.sshtools.common.ui.SshToolsApplicationClientPanel - Connecting to cluster.univ.kiev.ua as 
+15:53:39,586 [GSI-SSHTerm connection 2] ERROR com.sshtools.common.ui.SshToolsApplicationClientPanel - Thrown (IOException): java.net.ConnectException: Connection timed out: connect
+15:54:37,594 [GSI-SSHTerm connection 3] INFO  com.sshtools.common.ui.SshToolsApplicationClientPanel - Connecting to cluster.univ.kiev.ua as 
+15:54:40,766 [GSI-SSHTerm connection 4] INFO  com.sshtools.common.ui.SshToolsApplicationClientPanel - Connecting to cluster.univ.kiev.ua as 
+15:54:58,601 [GSI-SSHTerm connection 3] ERROR com.sshtools.common.ui.SshToolsApplicationClientPanel - Thrown (IOException): java.net.ConnectException: Connection timed out: connect
+15:55:01,769 [GSI-SSHTerm connection 4] ERROR com.sshtools.common.ui.SshToolsApplicationClientPanel - Thrown (IOException): java.net.ConnectException: Connection timed out: connect
+15:55:30,538 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.8.0_201
+15:58:17,093 [GSI-SSHTerm connection 5] INFO  com.sshtools.common.ui.SshToolsApplicationClientPanel - Connecting to cluster.univ.kiev.ua as 
+15:58:19,556 [GSI-SSHTerm connection 6] INFO  com.sshtools.common.ui.SshToolsApplicationClientPanel - Connecting to cluster.univ.kiev.ua as 
+15:58:22,223 [AWT-EventQueue-0] INFO  com.sshtools.common.ui.PreferencesStore - Preferences written to D:\UNIV\Comp_Sys\lab_3\GSI-SSHTerm-Testbed-20140330\home\.sshterm\GSI-SSHTerm.properties
+15:58:25,856 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.8.0_201
+15:58:25,859 [main] INFO  com.sshtools.j2ssh.transport.cipher.SshCipherFactory - Loading supported cipher algorithms
+15:58:25,863 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshPrivateKeyFormatFactory - Loading private key formats
+15:58:25,872 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.8.0_201
+15:58:25,873 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshPublicKeyFormatFactory - Loading public key formats
+15:58:25,874 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.8.0_201
+15:58:25,876 [main] INFO  com.sshtools.j2ssh.transport.compression.SshCompressionFactory - Loading compression methods
+15:58:25,877 [main] INFO  com.sshtools.j2ssh.transport.hmac.SshHmacFactory - Loading message authentication methods
+15:58:25,879 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshKeyPairFactory - Loading public key algorithms
+15:58:25,880 [main] INFO  com.sshtools.j2ssh.transport.kex.SshKeyExchangeFactory - Loading key exchange methods
+15:58:25,935 [main] INFO  com.sshtools.common.configuration.XmlConfigurationContext - automation.xml could not be found: automation.xml (The system cannot find the file specified)
+15:58:25,946 [main] INFO  com.sshtools.common.ui.PreferencesStore - loading default.properties
+15:58:25,951 [main] INFO  com.sshtools.common.ui.PreferencesStore - loaded default.properties
+15:58:25,951 [main] INFO  com.sshtools.common.ui.PreferencesStore - loading user defualts
+15:58:25,952 [main] WARN  com.sshtools.common.ui.PreferencesStore - Could not load user defaults: java.io.FileNotFoundException: D:\UNIV\Comp_Sys\lab_3\GSI-SSHTerm-Testbed-20140330\home\.sshterm\GSI-SSHTerm.settings (The system cannot find the file specified)
+15:58:25,954 [main] INFO  com.sshtools.common.ui.PreferencesStore - Preferences written to D:\UNIV\Comp_Sys\lab_3\GSI-SSHTerm-Testbed-20140330\home\.sshterm\GSI-SSHTerm.properties
+15:58:25,954 [main] INFO  com.sshtools.common.ui.SshToolsApplication - Preferences will be saved to D:\UNIV\Comp_Sys\lab_3\GSI-SSHTerm-Testbed-20140330\home\.sshterm
+15:58:25,955 [main] INFO  com.sshtools.common.ui.SshToolsApplication - Setting look and feel Windows (com.sun.java.swing.plaf.windows.WindowsLookAndFeel)
+15:58:26,302 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed Secure Tunneling session provider
+15:58:26,310 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed SFTP Session session provider
+15:58:26,313 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed Terminal Session session provider
+15:58:26,327 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed VNC Session session provider
+15:58:26,495 [main] INFO  com.sshtools.sshterm.SshTermFrame - \Display0 can go full screen
+16:19:13,943 [AWT-EventQueue-0] INFO  com.sshtools.common.ui.PreferencesStore - Preferences written to D:\UNIV\Comp_Sys\lab_3\GSI-SSHTerm-Testbed-20140330\home\.sshterm\GSI-SSHTerm.properties
+14:05:49,059 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.8.0_201
+14:05:49,064 [main] INFO  com.sshtools.j2ssh.transport.cipher.SshCipherFactory - Loading supported cipher algorithms
+14:05:49,068 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshPrivateKeyFormatFactory - Loading private key formats
+14:05:49,079 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.8.0_201
+14:05:49,080 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshPublicKeyFormatFactory - Loading public key formats
+14:05:49,082 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.8.0_201
+14:05:49,084 [main] INFO  com.sshtools.j2ssh.transport.compression.SshCompressionFactory - Loading compression methods
+14:05:49,085 [main] INFO  com.sshtools.j2ssh.transport.hmac.SshHmacFactory - Loading message authentication methods
+14:05:49,088 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshKeyPairFactory - Loading public key algorithms
+14:05:49,090 [main] INFO  com.sshtools.j2ssh.transport.kex.SshKeyExchangeFactory - Loading key exchange methods
+14:05:49,155 [main] INFO  com.sshtools.common.configuration.XmlConfigurationContext - automation.xml could not be found: automation.xml (The system cannot find the file specified)
+14:05:49,170 [main] INFO  com.sshtools.common.ui.PreferencesStore - loading default.properties
+14:05:49,176 [main] INFO  com.sshtools.common.ui.PreferencesStore - loaded default.properties
+14:05:49,176 [main] INFO  com.sshtools.common.ui.PreferencesStore - loading user defualts
+14:05:49,176 [main] WARN  com.sshtools.common.ui.PreferencesStore - Could not load user defaults: java.io.FileNotFoundException: D:\UNIV\Comp_Sys\lab_3\GSI-SSHTerm-Testbed-20140330\home\.sshterm\GSI-SSHTerm.settings (The system cannot find the file specified)
+14:05:49,180 [main] INFO  com.sshtools.common.ui.PreferencesStore - Preferences written to D:\UNIV\Comp_Sys\lab_3\GSI-SSHTerm-Testbed-20140330\home\.sshterm\GSI-SSHTerm.properties
+14:05:49,180 [main] INFO  com.sshtools.common.ui.SshToolsApplication - Preferences will be saved to D:\UNIV\Comp_Sys\lab_3\GSI-SSHTerm-Testbed-20140330\home\.sshterm
+14:05:49,181 [main] INFO  com.sshtools.common.ui.SshToolsApplication - Setting look and feel Windows (com.sun.java.swing.plaf.windows.WindowsLookAndFeel)
+14:05:49,670 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed Secure Tunneling session provider
+14:05:49,679 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed SFTP Session session provider
+14:05:49,682 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed Terminal Session session provider
+14:05:49,699 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed VNC Session session provider
+14:05:49,893 [main] INFO  com.sshtools.sshterm.SshTermFrame - \Display0 can go full screen
+14:06:00,489 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.authentication.SshAuthenticationClientFactory - Loading supported authentication methods
+14:06:00,504 [GSI-SSHTerm connection 1] INFO  com.sshtools.common.ui.SshToolsApplicationClientPanel - Connecting to cluster.univ.kiev.ua as 
+14:06:21,528 [GSI-SSHTerm connection 1] ERROR com.sshtools.common.ui.SshToolsApplicationClientPanel - Thrown (IOException): java.net.ConnectException: Connection timed out: connect
+14:07:54,671 [GSI-SSHTerm connection 2] INFO  com.sshtools.common.ui.SshToolsApplicationClientPanel - Connecting to cluster.univ.kiev.ua as 
+14:08:15,676 [GSI-SSHTerm connection 2] ERROR com.sshtools.common.ui.SshToolsApplicationClientPanel - Thrown (IOException): java.net.ConnectException: Connection timed out: connect
+14:08:53,593 [AWT-EventQueue-0] INFO  com.sshtools.common.ui.PreferencesStore - Preferences written to D:\UNIV\Comp_Sys\lab_3\GSI-SSHTerm-Testbed-20140330\home\.sshterm\GSI-SSHTerm.properties
+14:09:09,270 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.8.0_201
+14:09:09,274 [main] INFO  com.sshtools.j2ssh.transport.cipher.SshCipherFactory - Loading supported cipher algorithms
+14:09:09,277 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshPrivateKeyFormatFactory - Loading private key formats
+14:09:09,285 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.8.0_201
+14:09:09,285 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshPublicKeyFormatFactory - Loading public key formats
+14:09:09,287 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.8.0_201
+14:09:09,288 [main] INFO  com.sshtools.j2ssh.transport.compression.SshCompressionFactory - Loading compression methods
+14:09:09,289 [main] INFO  com.sshtools.j2ssh.transport.hmac.SshHmacFactory - Loading message authentication methods
+14:09:09,291 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshKeyPairFactory - Loading public key algorithms
+14:09:09,294 [main] INFO  com.sshtools.j2ssh.transport.kex.SshKeyExchangeFactory - Loading key exchange methods
+14:09:09,347 [main] INFO  com.sshtools.common.configuration.XmlConfigurationContext - automation.xml could not be found: automation.xml (The system cannot find the file specified)
+14:09:09,359 [main] INFO  com.sshtools.common.ui.PreferencesStore - loading default.properties
+14:09:09,363 [main] INFO  com.sshtools.common.ui.PreferencesStore - loaded default.properties
+14:09:09,363 [main] INFO  com.sshtools.common.ui.PreferencesStore - loading user defualts
+14:09:09,364 [main] WARN  com.sshtools.common.ui.PreferencesStore - Could not load user defaults: java.io.FileNotFoundException: D:\UNIV\Comp_Sys\lab_3\GSI-SSHTerm-Testbed-20140330\home\.sshterm\GSI-SSHTerm.settings (The system cannot find the file specified)
+14:09:09,367 [main] INFO  com.sshtools.common.ui.PreferencesStore - Preferences written to D:\UNIV\Comp_Sys\lab_3\GSI-SSHTerm-Testbed-20140330\home\.sshterm\GSI-SSHTerm.properties
+14:09:09,367 [main] INFO  com.sshtools.common.ui.SshToolsApplication - Preferences will be saved to D:\UNIV\Comp_Sys\lab_3\GSI-SSHTerm-Testbed-20140330\home\.sshterm
+14:09:09,368 [main] INFO  com.sshtools.common.ui.SshToolsApplication - Setting look and feel Windows (com.sun.java.swing.plaf.windows.WindowsLookAndFeel)
+14:09:09,791 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed Secure Tunneling session provider
+14:09:09,800 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed SFTP Session session provider
+14:09:09,803 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed Terminal Session session provider
+14:09:09,820 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed VNC Session session provider
+14:09:10,035 [main] INFO  com.sshtools.sshterm.SshTermFrame - \Display0 can go full screen
+14:09:27,550 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.authentication.SshAuthenticationClientFactory - Loading supported authentication methods
+14:09:29,902 [GSI-SSHTerm connection 1] INFO  com.sshtools.common.ui.SshToolsApplicationClientPanel - Connecting to  as 
+14:09:30,915 [GSI-SSHTerm connection 1] ERROR com.sshtools.common.ui.SshToolsApplicationClientPanel - Thrown (IOException): java.net.ConnectException: Connection refused: connect

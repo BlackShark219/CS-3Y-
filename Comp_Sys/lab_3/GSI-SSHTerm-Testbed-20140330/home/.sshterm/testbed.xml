@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SshToolsConnectionProfile Hostname="cluster.univ.kiev.ua" Port="2222" Username="" Provider="socket">   <PreferedCipher Client2Server="blowfish-cbc" Server2Client="blowfish-cbc"/>
+   <PreferedMac Client2Server="hmac-sha1" Server2Client="hmac-sha1"/>
+   <PreferedCompression Client2Server="none" Server2Client="none"/>
+   <PreferedPublicKey Name="gss-group1-sha1-dZuIebMjgUqaxvbF7hDbAw=="/>
+   <PreferedKeyExchange Name="gss-group1-sha1-dZuIebMjgUqaxvbF7hDbAw=="/>
+   <OnceAuthenticated value="2"/>
+   <AuthenticationMethod Name="keyboard-interactive">
+   </AuthenticationMethod>
+   <ApplicationProperty Name="FONT_SIZE" Value="13"/>
+   <ApplicationProperty Name="RESIZE_STRATEGY" Value="2"/>
+   <ApplicationProperty Name="sshterm.configured" Value="true"/>
+   <ApplicationProperty Name="sshterm.myproxy.defaults.hostname" Value="px.grid.org.ua"/>
+   <ApplicationProperty Name="sshterm.proxyLength" Value="12"/>
+   <ApplicationProperty Name="EOL" Value="0"/>
+   <ApplicationProperty Name="TERM_SCREEN_SIZE" Value="1"/>
+   <ApplicationProperty Name="sshterm.xForwarding.localDisplay" Value=""/>
+   <ApplicationProperty Name="COLOR_PRINTING" Value="false"/>
+   <ApplicationProperty Name="sshterm.xForwarding" Value="false"/>
+   <ApplicationProperty Name="TERM" Value="vt100"/>
+   <ApplicationProperty Name="sshterm.proxy.save" Value="false"/>
+   <ApplicationProperty Name="sshterm.myproxy.defaults.port" Value="7512"/>
+   <ApplicationProperty Name="BACKGROUND_COLOR" Value="#000000"/>
+   <ApplicationProperty Name="sshterm.browser.profile" Value="Internet Explorer"/>
+   <ApplicationProperty Name="sshterm.browser.dn" Value=""/>
+   <ApplicationProperty Name="sshterm.pkcs12.defaults.file" Value="D:\UNIV\Comp_Sys\lab_3\lab_3_certificate.p12"/>
+   <ApplicationProperty Name="sshterm.auth.order" Value="other,cert"/>
+   <ApplicationProperty Name="sshterm.delegationType" Value="full"/>
+   <ApplicationProperty Name="sshterm.proxyType" Value="14"/>
+   <ApplicationProperty Name="FOREGROUND_COLOR" Value="#ffffff"/>
+   <ApplicationProperty Name="sshterm.xForwarding.remoteDisplayNumber" Value=""/>
+   <ApplicationProperty Name="sshterm.myproxy.defaults.username" Value="none"/>
+   <ApplicationProperty Name="ANTIALIAS" Value="false"/>
+   <ForwardingAutoStart value="false"/>
+</SshToolsConnectionProfile>

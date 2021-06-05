@@ -1,0 +1,4 @@
+# KNU Testbed CA
+access_id_CA  X509   '/C=UA/O=KNU/CN=Testbed CA'
+pos_rights    globus CA:sign
+cond_subjects globus '"/C=UA/O=KNU/OU=People/*" "/C=UA/O=KNU/OU=SLCS/*" "/C=UA/O=KNU/OU=Computers/*"'

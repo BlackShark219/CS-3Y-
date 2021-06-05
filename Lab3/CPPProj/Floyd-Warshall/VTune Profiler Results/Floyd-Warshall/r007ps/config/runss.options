@@ -1,0 +1,15 @@
+-r
+D:\3year\2semester\CS\Lab3\CPPProj\Floyd-Warshall\VTune Profiler Results\Floyd-Warshall\r007ps
+--stack-stitching
+--data-limit-mb=1000
+--disk-space-limit=0
+--mrte-type=java,dotnet
+--itt-config=frame
+--stackwalk=offline
+--mrte-mode=auto
+--type=cpu:counters:nostack
+--type=cpu:nostack
+--interval=100
+--app-working-dir=D:\3year\2semester\CS\Lab3\CPPProj\Floyd-Warshall\Debug
+--
+D:\3year\2semester\CS\Lab3\CPPProj\Floyd-Warshall\Debug\Floyd-Warshall.exe

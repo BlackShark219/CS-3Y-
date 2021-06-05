@@ -1,0 +1,44 @@
+14:09:36,017 [GSI-SSHTerm connection 2] INFO  com.sshtools.common.ui.SshToolsApplicationClientPanel - Connecting to cluster.univ.kiev.ua as 
+14:09:39,383 [GSI-SSHTerm connection 3] INFO  com.sshtools.common.ui.SshToolsApplicationClientPanel - Connecting to cluster.univ.kiev.ua as 
+14:09:42,989 [GSI-SSHTerm connection 4] INFO  com.sshtools.common.ui.SshToolsApplicationClientPanel - Connecting to cluster.univ.kiev.ua as 
+14:09:50,989 [AWT-EventQueue-0] INFO  com.sshtools.sshterm.SshTermFrame - \Display0 can go full screen
+14:09:57,026 [GSI-SSHTerm connection 2] ERROR com.sshtools.common.ui.SshToolsApplicationClientPanel - Thrown (IOException): java.net.ConnectException: Connection timed out: connect
+14:10:00,385 [GSI-SSHTerm connection 3] ERROR com.sshtools.common.ui.SshToolsApplicationClientPanel - Thrown (IOException): java.net.ConnectException: Connection timed out: connect
+14:10:03,994 [GSI-SSHTerm connection 4] ERROR com.sshtools.common.ui.SshToolsApplicationClientPanel - Thrown (IOException): java.net.ConnectException: Connection timed out: connect
+14:10:35,477 [GSI-SSHTerm connection 5] INFO  com.sshtools.common.ui.SshToolsApplicationClientPanel - Connecting to cluster.univ.kiev.ua as 
+14:10:49,122 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.transport.HostKeyVerification - Saving null
+14:10:49,122 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.transport.HostKeyVerification - Saving null
+14:10:56,483 [GSI-SSHTerm connection 5] ERROR com.sshtools.common.ui.SshToolsApplicationClientPanel - Thrown (IOException): java.net.ConnectException: Connection timed out: connect
+14:10:57,471 [AWT-EventQueue-0] INFO  com.sshtools.common.ui.PreferencesStore - Preferences written to D:\UNIV\Comp_Sys\lab_3\GSI-SSHTerm-Testbed-20140330\home\.sshterm\GSI-SSHTerm.properties
+14:11:29,416 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.8.0_201
+14:11:29,420 [main] INFO  com.sshtools.j2ssh.transport.cipher.SshCipherFactory - Loading supported cipher algorithms
+14:11:29,422 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshPrivateKeyFormatFactory - Loading private key formats
+14:11:29,430 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.8.0_201
+14:11:29,432 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshPublicKeyFormatFactory - Loading public key formats
+14:11:29,432 [main] INFO  com.sshtools.j2ssh.configuration.ConfigurationLoader - JAVA version is 1.8.0_201
+14:11:29,433 [main] INFO  com.sshtools.j2ssh.transport.compression.SshCompressionFactory - Loading compression methods
+14:11:29,434 [main] INFO  com.sshtools.j2ssh.transport.hmac.SshHmacFactory - Loading message authentication methods
+14:11:29,436 [main] INFO  com.sshtools.j2ssh.transport.publickey.SshKeyPairFactory - Loading public key algorithms
+14:11:29,438 [main] INFO  com.sshtools.j2ssh.transport.kex.SshKeyExchangeFactory - Loading key exchange methods
+14:11:29,491 [main] INFO  com.sshtools.common.configuration.XmlConfigurationContext - automation.xml could not be found: automation.xml (The system cannot find the file specified)
+14:11:29,502 [main] INFO  com.sshtools.common.ui.PreferencesStore - loading default.properties
+14:11:29,508 [main] INFO  com.sshtools.common.ui.PreferencesStore - loaded default.properties
+14:11:29,508 [main] INFO  com.sshtools.common.ui.PreferencesStore - loading user defualts
+14:11:29,508 [main] WARN  com.sshtools.common.ui.PreferencesStore - Could not load user defaults: java.io.FileNotFoundException: D:\UNIV\Comp_Sys\lab_3\GSI-SSHTerm-Testbed-20140330\home\.sshterm\GSI-SSHTerm.settings (The system cannot find the file specified)
+14:11:29,511 [main] INFO  com.sshtools.common.ui.PreferencesStore - Preferences written to D:\UNIV\Comp_Sys\lab_3\GSI-SSHTerm-Testbed-20140330\home\.sshterm\GSI-SSHTerm.properties
+14:11:29,511 [main] INFO  com.sshtools.common.ui.SshToolsApplication - Preferences will be saved to D:\UNIV\Comp_Sys\lab_3\GSI-SSHTerm-Testbed-20140330\home\.sshterm
+14:11:29,512 [main] INFO  com.sshtools.common.ui.SshToolsApplication - Setting look and feel Windows (com.sun.java.swing.plaf.windows.WindowsLookAndFeel)
+14:11:29,894 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed Secure Tunneling session provider
+14:11:29,905 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed SFTP Session session provider
+14:11:29,908 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed Terminal Session session provider
+14:11:29,925 [main] INFO  com.sshtools.common.ui.SessionProviderFactory - Installed VNC Session session provider
+14:11:30,129 [main] INFO  com.sshtools.sshterm.SshTermFrame - \Display0 can go full screen
+14:11:34,468 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.authentication.SshAuthenticationClientFactory - Loading supported authentication methods
+14:11:35,905 [AWT-EventQueue-0] INFO  com.sshtools.sshterm.SshTerminalPanel - New connection cancelled
+14:11:39,012 [GSI-SSHTerm connection 1] INFO  com.sshtools.common.ui.SshToolsApplicationClientPanel - Connecting to cluster.univ.kiev.ua as 
+14:12:00,032 [GSI-SSHTerm connection 1] ERROR com.sshtools.common.ui.SshToolsApplicationClientPanel - Thrown (IOException): java.net.ConnectException: Connection timed out: connect
+14:12:13,679 [GSI-SSHTerm connection 2] INFO  com.sshtools.common.ui.SshToolsApplicationClientPanel - Connecting to cluster.univ.kiev.ua as 
+14:12:34,684 [GSI-SSHTerm connection 2] ERROR com.sshtools.common.ui.SshToolsApplicationClientPanel - Thrown (IOException): java.net.ConnectException: Connection timed out: connect
+14:13:13,131 [GSI-SSHTerm connection 3] INFO  com.sshtools.common.ui.SshToolsApplicationClientPanel - Connecting to cluster.univ.kiev.ua as 
+14:13:19,940 [AWT-EventQueue-0] INFO  com.sshtools.j2ssh.transport.HostKeyVerification - Saving null
+14:13:31,504 [AWT-EventQueue-0] INFO  com.sshtools.common.ui.PreferencesStore - Preferences written to D:\UNIV\Comp_Sys\lab_3\GSI-SSHTerm-Testbed-20140330\home\.sshterm\GSI-SSHTerm.properties

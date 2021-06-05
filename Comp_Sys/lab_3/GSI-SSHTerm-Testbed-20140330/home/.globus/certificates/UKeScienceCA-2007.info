@@ -1,0 +1,12 @@
+#
+# @(#)$Id: 367b75c3.info,v 1.2 2007/11/15 21:12:31 pmacvsdg Exp $
+# Information for new (2007) CA UKeScience eScience subordinate CA
+#
+alias = UKeScienceCA-2007
+requires = UKeScienceRoot-2007
+url = http://www.grid-support.ac.uk/ca/
+crl_url = http://ca.grid-support.ac.uk/pub/crl/ca-crl.der
+email = support@grid-support.ac.uk
+status = accredited:classic
+version = 1.50
+sha1fp.0 = 63:7A:39:9E:51:61:45:F2:5C:BE:71:86:98:F6:D8:7F:67:5B:F9:45
